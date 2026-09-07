@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_abyss
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: abyss
+  displayName: Abyss
+  elevation: 0.05
+  temperature: 0.3
+  moisture: 1
+  variance: 0.55
+  climateWeight: 0.4
+  isWater: 1
+  tileColor: {r: 0.04, g: 0.08, b: 0.22, a: 1}
+  fish:
+  - {fileID: 11400000, guid: 17199de646c1feb4abeeb1beb0e21274, type: 2}
+  - {fileID: 11400000, guid: ee4a5f61e42c1864cba31a85a40c0ad1, type: 2}
+  - {fileID: 11400000, guid: 5a10143fb1ad36447802840c469522fd, type: 2}
+  - {fileID: 11400000, guid: 9c399aba1fb486d4e911f14add1d2067, type: 2}
+  - {fileID: 11400000, guid: 334e90537bd0e2c42b5cf0e0d73d6e2a, type: 2}
+  - {fileID: 11400000, guid: 6177bc4ef8a336447a7f0a9b91254803, type: 2}
+  - {fileID: 11400000, guid: 1cc668a4efd16ed488dceff5dc953902, type: 2}
+  - {fileID: 11400000, guid: 7840305d2022f1449b15d123f3ac260d, type: 2}
+  - {fileID: 11400000, guid: b1b429f6360904040b2ad448cccac620, type: 2}
+  - {fileID: 11400000, guid: 1441af34772176d4ab187fbaaa0d50d5, type: 2}
+  - {fileID: 11400000, guid: 245cc43694f83b541bea25f3bea9bbb9, type: 2}
+  - {fileID: 11400000, guid: e52b5853e448f9447aef88c6c4e93654, type: 2}
+  - {fileID: 11400000, guid: e4a6f598715cbfd4c88ac95da983d5d2, type: 2}
+  - {fileID: 11400000, guid: ea6b01f3b368f274799d2f4f651bebc9, type: 2}
+  - {fileID: 11400000, guid: a58f3479ed0b22f439c69dab9a795d67, type: 2}
+  - {fileID: 11400000, guid: 56c62f3d3173f2041a89c1d0bc748667, type: 2}
+  - {fileID: 11400000, guid: f022e114ca4fc8b438f7e59f75897c62, type: 2}
+  - {fileID: 11400000, guid: 19eb6dceb629a1e4da91abdb2f1ff06d, type: 2}
+  - {fileID: 11400000, guid: b0e86ca4f6d81604892a86a6d61883a2, type: 2}
+  - {fileID: 11400000, guid: 7bbaedc8fb61e2d4e9f4c94eb7113cd3, type: 2}
+  - {fileID: 11400000, guid: dd7ea759863af824d83bf6a5fa99cb5d, type: 2}
+  - {fileID: 11400000, guid: 78491e71d94f0744ea6b017f5043e06a, type: 2}
+  - {fileID: 11400000, guid: cc91a5c59bc0fb94fb19cca7b6992c54, type: 2}
+  - {fileID: 11400000, guid: c43cc49b8ba85b1438cc516cf468ea4c, type: 2}
+  - {fileID: 11400000, guid: 9916d6e66d8ac3e41bd654047fea5460, type: 2}
+  - {fileID: 11400000, guid: 024118a92c1853b4a864e2857fc329fe, type: 2}
+  - {fileID: 11400000, guid: d82c863b8c8f7f043b734bf39cfaa6db, type: 2}
+  - {fileID: 11400000, guid: 4c8aa77bab45b864ba49e48e59f6a01d, type: 2}
+  - {fileID: 11400000, guid: 01fe6efb040bbdc45b0d54cb6ecbb8c3, type: 2}
+  - {fileID: 11400000, guid: 68a6997e630b36a48848c15256f86f65, type: 2}
+  - {fileID: 11400000, guid: 5582d76b42bf8bb4e8a97d3b31b2eb48, type: 2}
+  - {fileID: 11400000, guid: f0ac22b0aaf8a6e41a3181fd3a5da854, type: 2}
+  requiresUnlock: 
+  depthTier: 3

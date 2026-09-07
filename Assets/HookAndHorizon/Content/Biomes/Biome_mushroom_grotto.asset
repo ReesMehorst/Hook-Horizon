@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_mushroom_grotto
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: mushroom_grotto
+  displayName: Mushroom Grotto
+  elevation: 0.38
+  temperature: 0.5
+  moisture: 0.8
+  variance: 0.75
+  climateWeight: 0.5
+  isWater: 1
+  tileColor: {r: 0.55, g: 0.45, b: 0.6, a: 1}
+  fish:
+  - {fileID: 11400000, guid: ad5ba05c6c6299c41917b508332a571d, type: 2}
+  - {fileID: 11400000, guid: 9f3c1953fb02dfd4bb9dc93d8d8f2a54, type: 2}
+  - {fileID: 11400000, guid: 082e2977b65ad2c4fa6e81434feaa7d0, type: 2}
+  - {fileID: 11400000, guid: 513ec6da9e168cd459cc2a0a89529a65, type: 2}
+  - {fileID: 11400000, guid: b867260fe83ff75499b3ec086a49dd07, type: 2}
+  - {fileID: 11400000, guid: df16852df127fd040a322a3e35fde06c, type: 2}
+  - {fileID: 11400000, guid: 69820e0752d620e4289c45382e741bf0, type: 2}
+  - {fileID: 11400000, guid: e8386faa0f7463c45b80db51ac49873d, type: 2}
+  - {fileID: 11400000, guid: 1454ff36d3a70a740bc71d8a760e7266, type: 2}
+  - {fileID: 11400000, guid: 9dd86bf742bebee40af89421faa57608, type: 2}
+  - {fileID: 11400000, guid: f6a9053292f0bc4499cebc8932741b61, type: 2}
+  - {fileID: 11400000, guid: 5697646ae7f85fc4f930a2f38296fc66, type: 2}
+  - {fileID: 11400000, guid: c5905129c26562a4892d64406b981991, type: 2}
+  - {fileID: 11400000, guid: ab612a6cba386b24abc462e86e9d080a, type: 2}
+  - {fileID: 11400000, guid: 827d8a511fa71bc4fad9934ce9f668a8, type: 2}
+  - {fileID: 11400000, guid: 38c99e4395ea7c44cbcf714532afe058, type: 2}
+  - {fileID: 11400000, guid: eb6c33d62768c0c42a06a013ba8f114e, type: 2}
+  - {fileID: 11400000, guid: d21f5886827d30c41a5245c9999177dd, type: 2}
+  - {fileID: 11400000, guid: 75ea1f0456305b4419d7339ea7cf8d06, type: 2}
+  - {fileID: 11400000, guid: 74cd58f308d254e4ea15316530462014, type: 2}
+  - {fileID: 11400000, guid: 938f06cb030b23f408e24c09f697df30, type: 2}
+  - {fileID: 11400000, guid: 8de007f9f4cb8e24ca4e98f58b50322b, type: 2}
+  - {fileID: 11400000, guid: 9b0b33d4d1791654f813f708b4274a37, type: 2}
+  - {fileID: 11400000, guid: bfe3a4b7cba4ecc4f8f5a0670cfa5523, type: 2}
+  - {fileID: 11400000, guid: eb15daa83ba9735459b9ee911221b663, type: 2}
+  - {fileID: 11400000, guid: 1710863f344dfbe43a8b1e23f22a5f02, type: 2}
+  - {fileID: 11400000, guid: 22e3a0764fffa734fbc0121162fe8385, type: 2}
+  - {fileID: 11400000, guid: 43ceb311102afc3409cceec21ee2bfb7, type: 2}
+  - {fileID: 11400000, guid: 50b52693a8a7c7445a6309cd49738380, type: 2}
+  - {fileID: 11400000, guid: d85dd3e3154cb354ba98f6cf1393c2ca, type: 2}
+  - {fileID: 11400000, guid: 3a0085f6fb46916439516ca06027f232, type: 2}
+  - {fileID: 11400000, guid: 6065d4928f2f08e45abe4ca2cda655d9, type: 2}
+  - {fileID: 11400000, guid: 8d6eb37f8f633e842a020b285eefa0dc, type: 2}
+  - {fileID: 11400000, guid: ae1e65bc05d21bf45ab230857d864f13, type: 2}
+  - {fileID: 11400000, guid: c895f30e4adb9cd41af2b0c03939b725, type: 2}
+  - {fileID: 11400000, guid: 7e220763e16b3fa459c8c179620187ec, type: 2}
+  - {fileID: 11400000, guid: 82b1a0709e5aa3c4589d3996b38e086e, type: 2}
+  - {fileID: 11400000, guid: 5d7bef01ab4e63d41ab08d3b2c4b28d3, type: 2}
+  - {fileID: 11400000, guid: 5e36462b68bede640b742d9c62f93a4d, type: 2}
+  - {fileID: 11400000, guid: 60ccb4b09f406cb43a1492e3b28d0347, type: 2}
+  requiresUnlock: 
+  depthTier: 0

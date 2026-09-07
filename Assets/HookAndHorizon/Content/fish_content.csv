@@ -1,0 +1,571 @@
+FishName,Type,Biome,Notes
+Meadow Koi,Exclusive,1. Sunlit Meadow,Only intended for this biome
+Golden Minnow,Exclusive,1. Sunlit Meadow,Only intended for this biome
+Daisy Perch,Exclusive,1. Sunlit Meadow,Only intended for this biome
+Sunscale Carp,Exclusive,1. Sunlit Meadow,Only intended for this biome
+Butterflyfish,Exclusive,1. Sunlit Meadow,Only intended for this biome
+Honeyfin,Exclusive,1. Sunlit Meadow,Only intended for this biome
+Meadow Pike,Exclusive,1. Sunlit Meadow,Only intended for this biome
+Clover Trout,Exclusive,1. Sunlit Meadow,Only intended for this biome
+Amber Dace,Exclusive,1. Sunlit Meadow,Only intended for this biome
+Sunbeam Roach,Exclusive,1. Sunlit Meadow,Only intended for this biome
+Mossback Trout,Exclusive,2. Whispering Woods,Only intended for this biome
+Whisperfin,Exclusive,2. Whispering Woods,Only intended for this biome
+Oakscale Perch,Exclusive,2. Whispering Woods,Only intended for this biome
+Fern Pike,Exclusive,2. Whispering Woods,Only intended for this biome
+Mooncap Carp,Exclusive,2. Whispering Woods,Only intended for this biome
+Bramble Bass,Exclusive,2. Whispering Woods,Only intended for this biome
+Woodland Char,Exclusive,2. Whispering Woods,Only intended for this biome
+Acorn Dace,Exclusive,2. Whispering Woods,Only intended for this biome
+Shadow Minnow,Exclusive,2. Whispering Woods,Only intended for this biome
+Rootfin Chub,Exclusive,2. Whispering Woods,Only intended for this biome
+Crystalfin,Exclusive,3. Crystal Caverns,Only intended for this biome
+Prism Tetra,Exclusive,3. Crystal Caverns,Only intended for this biome
+Gemscale Carp,Exclusive,3. Crystal Caverns,Only intended for this biome
+Quartz Pike,Exclusive,3. Crystal Caverns,Only intended for this biome
+Amethyst Char,Exclusive,3. Crystal Caverns,Only intended for this biome
+Diamond Dace,Exclusive,3. Crystal Caverns,Only intended for this biome
+Glimmer Eel,Exclusive,3. Crystal Caverns,Only intended for this biome
+Shardback Trout,Exclusive,3. Crystal Caverns,Only intended for this biome
+Opal Minnow,Exclusive,3. Crystal Caverns,Only intended for this biome
+Geode Catfish,Exclusive,3. Crystal Caverns,Only intended for this biome
+Bog Lanternfish,Exclusive,4. Misty Marsh,Only intended for this biome
+Mire Eel,Exclusive,4. Misty Marsh,Only intended for this biome
+Marsh Croaker,Exclusive,4. Misty Marsh,Only intended for this biome
+Murk Carp,Exclusive,4. Misty Marsh,Only intended for this biome
+Willow Pike,Exclusive,4. Misty Marsh,Only intended for this biome
+Fogfin Perch,Exclusive,4. Misty Marsh,Only intended for this biome
+Bogscale Trout,Exclusive,4. Misty Marsh,Only intended for this biome
+Lilypad Dace,Exclusive,4. Misty Marsh,Only intended for this biome
+Swamp Gar,Exclusive,4. Misty Marsh,Only intended for this biome
+Mossbelly Catfish,Exclusive,4. Misty Marsh,Only intended for this biome
+Emberfin Trout,Exclusive,5. Ember Highlands,Only intended for this biome
+Cinder Pike,Exclusive,5. Ember Highlands,Only intended for this biome
+Flameback Carp,Exclusive,5. Ember Highlands,Only intended for this biome
+Ashscale Char,Exclusive,5. Ember Highlands,Only intended for this biome
+Lava Perch,Exclusive,5. Ember Highlands,Only intended for this biome
+Coalfin Dace,Exclusive,5. Ember Highlands,Only intended for this biome
+Blazetail Minnow,Exclusive,5. Ember Highlands,Only intended for this biome
+Sootscale Bass,Exclusive,5. Ember Highlands,Only intended for this biome
+Magma Eel,Exclusive,5. Ember Highlands,Only intended for this biome
+Firecrest Salmon,Exclusive,5. Ember Highlands,Only intended for this biome
+Frostfin Trout,Exclusive,6. Frostpine Tundra,Only intended for this biome
+Snowscale Char,Exclusive,6. Frostpine Tundra,Only intended for this biome
+Icecap Perch,Exclusive,6. Frostpine Tundra,Only intended for this biome
+Glacier Pike,Exclusive,6. Frostpine Tundra,Only intended for this biome
+Frostbite Minnow,Exclusive,6. Frostpine Tundra,Only intended for this biome
+Pinecrest Salmon,Exclusive,6. Frostpine Tundra,Only intended for this biome
+Hoarfrost Carp,Exclusive,6. Frostpine Tundra,Only intended for this biome
+Winter Dace,Exclusive,6. Frostpine Tundra,Only intended for this biome
+Blueice Eel,Exclusive,6. Frostpine Tundra,Only intended for this biome
+Aurora Char,Exclusive,6. Frostpine Tundra,Only intended for this biome
+Coral Snapper,Exclusive,Coral Reef,Only intended for this biome
+Reef Butterflyfish,Exclusive,Coral Reef,Only intended for this biome
+Pearl Grouper,Exclusive,Coral Reef,Only intended for this biome
+Coralfin Wrasse,Exclusive,Coral Reef,Only intended for this biome
+Rainbow Parrotfish,Exclusive,Coral Reef,Only intended for this biome
+Shellback Puffer,Exclusive,Coral Reef,Only intended for this biome
+Tidepool Goby,Exclusive,Coral Reef,Only intended for this biome
+Reef Pike,Exclusive,Coral Reef,Only intended for this biome
+Pearlscale Bream,Exclusive,Coral Reef,Only intended for this biome
+Coral Moray,Exclusive,Coral Reef,Only intended for this biome
+Thunder Mackerel,Exclusive,Cold Sea,Only intended for this biome
+Stormray,Exclusive,Cold Sea,Only intended for this biome
+Tempest Tuna,Exclusive,Cold Sea,Only intended for this biome
+Lightning Eel,Exclusive,Cold Sea,Only intended for this biome
+Gale Snapper,Exclusive,Cold Sea,Only intended for this biome
+Squall Barracuda,Exclusive,Cold Sea,Only intended for this biome
+Cloudfin Sardine,Exclusive,Cold Sea,Only intended for this biome
+Stormcrest Salmon,Exclusive,Cold Sea,Only intended for this biome
+Thunderhead Grouper,Exclusive,Cold Sea,Only intended for this biome
+Static Pike,Exclusive,Cold Sea,Only intended for this biome
+Relic Carp,Exclusive,9. Sunken Ruins,Only intended for this biome
+Ruinstone Perch,Exclusive,9. Sunken Ruins,Only intended for this biome
+Temple Eel,Exclusive,9. Sunken Ruins,Only intended for this biome
+Statue Catfish,Exclusive,9. Sunken Ruins,Only intended for this biome
+Ancient Snapper,Exclusive,9. Sunken Ruins,Only intended for this biome
+Lost Kingdom Koi,Exclusive,9. Sunken Ruins,Only intended for this biome
+Marble Pike,Exclusive,9. Sunken Ruins,Only intended for this biome
+Crownscale Bream,Exclusive,9. Sunken Ruins,Only intended for this biome
+Rune Dace,Exclusive,9. Sunken Ruins,Only intended for this biome
+Guardian Gar,Exclusive,9. Sunken Ruins,Only intended for this biome
+Moonbeam Koi,Exclusive,Warm Ocean,Only intended for this biome
+Lunarfish,Exclusive,Warm Ocean,Only intended for this biome
+Silverfin Perch,Exclusive,Warm Ocean,Only intended for this biome
+Moonshadow Eel,Exclusive,Warm Ocean,Only intended for this biome
+Crescent Snapper,Exclusive,Warm Ocean,Only intended for this biome
+Starglow Sardine,Exclusive,Warm Ocean,Only intended for this biome
+Nightbloom Carp,Exclusive,Warm Ocean,Only intended for this biome
+Lunar Pike,Exclusive,Warm Ocean,Only intended for this biome
+Pearlmoon Bream,Exclusive,Warm Ocean,Only intended for this biome
+Dreamscale Trout,Exclusive,Warm Ocean,Only intended for this biome
+Mangrove Snapper,Exclusive,11. Mangrove Delta,Only intended for this biome
+Rootwalker Catfish,Exclusive,11. Mangrove Delta,Only intended for this biome
+Mudskipper,Exclusive,11. Mangrove Delta,Only intended for this biome
+Delta Gar,Exclusive,11. Mangrove Delta,Only intended for this biome
+Mangrove Jack,Exclusive,11. Mangrove Delta,Only intended for this biome
+Brackish Eel,Exclusive,11. Mangrove Delta,Only intended for this biome
+Propfin Bream,Exclusive,11. Mangrove Delta,Only intended for this biome
+Tanglefin Perch,Exclusive,11. Mangrove Delta,Only intended for this biome
+Mudscale Carp,Exclusive,11. Mangrove Delta,Only intended for this biome
+River Crocodilefish,Exclusive,11. Mangrove Delta,Only intended for this biome
+Lavafin Snapper,Exclusive,12. Volcanic Lagoon,Only intended for this biome
+Obsidian Grouper,Exclusive,12. Volcanic Lagoon,Only intended for this biome
+Sulfur Eel,Exclusive,12. Volcanic Lagoon,Only intended for this biome
+Volcanic Gar,Exclusive,12. Volcanic Lagoon,Only intended for this biome
+Basalt Bream,Exclusive,12. Volcanic Lagoon,Only intended for this biome
+Magma Puffer,Exclusive,12. Volcanic Lagoon,Only intended for this biome
+Ashreef Wrasse,Exclusive,12. Volcanic Lagoon,Only intended for this biome
+Scorchfin Tuna,Exclusive,12. Volcanic Lagoon,Only intended for this biome
+Caldera Pike,Exclusive,12. Volcanic Lagoon,Only intended for this biome
+Inferno Moray,Exclusive,12. Volcanic Lagoon,Only intended for this biome
+Sapphire Tuna,Exclusive,Warm Ocean,Only intended for this biome
+Bluecrest Marlin,Exclusive,Warm Ocean,Only intended for this biome
+Azure Grouper,Exclusive,Warm Ocean,Only intended for this biome
+Sapphire Ray,Exclusive,Warm Ocean,Only intended for this biome
+Cobalt Snapper,Exclusive,Warm Ocean,Only intended for this biome
+Blueglass Eel,Exclusive,Warm Ocean,Only intended for this biome
+Deepblue Bream,Exclusive,Warm Ocean,Only intended for this biome
+Indigo Sailfish,Exclusive,Warm Ocean,Only intended for this biome
+Cerulean Mackerel,Exclusive,Warm Ocean,Only intended for this biome
+Oceanheart Carp,Exclusive,Warm Ocean,Only intended for this biome
+Oasis Carp,Exclusive,14. Golden Desert Oasis,Only intended for this biome
+Goldscale Perch,Exclusive,14. Golden Desert Oasis,Only intended for this biome
+Mirage Minnow,Exclusive,14. Golden Desert Oasis,Only intended for this biome
+Dune Catfish,Exclusive,14. Golden Desert Oasis,Only intended for this biome
+Palmfin Bream,Exclusive,14. Golden Desert Oasis,Only intended for this biome
+Sunset Gar,Exclusive,14. Golden Desert Oasis,Only intended for this biome
+Sandstream Eel,Exclusive,14. Golden Desert Oasis,Only intended for this biome
+Golden Pike,Exclusive,14. Golden Desert Oasis,Only intended for this biome
+Desert Trout,Exclusive,14. Golden Desert Oasis,Only intended for this biome
+Dewdrop Dace,Exclusive,14. Golden Desert Oasis,Only intended for this biome
+Sporefin Tetra,Exclusive,15. Mushroom Grotto,Only intended for this biome
+Glowcap Catfish,Exclusive,15. Mushroom Grotto,Only intended for this biome
+Fungus Carp,Exclusive,15. Mushroom Grotto,Only intended for this biome
+Mushroom Eel,Exclusive,15. Mushroom Grotto,Only intended for this biome
+Toadstool Perch,Exclusive,15. Mushroom Grotto,Only intended for this biome
+Mycelium Pike,Exclusive,15. Mushroom Grotto,Only intended for this biome
+Sporeback Char,Exclusive,15. Mushroom Grotto,Only intended for this biome
+Glowspore Minnow,Exclusive,15. Mushroom Grotto,Only intended for this biome
+Capscale Bream,Exclusive,15. Mushroom Grotto,Only intended for this biome
+Fairy Ring Trout,Exclusive,15. Mushroom Grotto,Only intended for this biome
+Fairyfin Trout,Exclusive,16. Enchanted Grove,Only intended for this biome
+Pixie Perch,Exclusive,16. Enchanted Grove,Only intended for this biome
+Spellscale Carp,Exclusive,16. Enchanted Grove,Only intended for this biome
+Enchanted Pike,Exclusive,16. Enchanted Grove,Only intended for this biome
+Dreamwood Char,Exclusive,16. Enchanted Grove,Only intended for this biome
+Glimmer Dace,Exclusive,16. Enchanted Grove,Only intended for this biome
+Whimsy Koi,Exclusive,16. Enchanted Grove,Only intended for this biome
+Charmfin Bream,Exclusive,16. Enchanted Grove,Only intended for this biome
+Moonleaf Eel,Exclusive,16. Enchanted Grove,Only intended for this biome
+Magicwing Fish,Exclusive,16. Enchanted Grove,Only intended for this biome
+Cloudfin Trout,Exclusive,17. Sky Isles,Only intended for this biome
+Sky Pike,Exclusive,17. Sky Isles,Only intended for this biome
+Nimbus Carp,Exclusive,17. Sky Isles,Only intended for this biome
+Windray,Exclusive,17. Sky Isles,Only intended for this biome
+Aether Eel,Exclusive,17. Sky Isles,Only intended for this biome
+Stormcloud Perch,Exclusive,17. Sky Isles,Only intended for this biome
+Featherfin Bream,Exclusive,17. Sky Isles,Only intended for this biome
+Highwind Salmon,Exclusive,17. Sky Isles,Only intended for this biome
+Cirrus Dace,Exclusive,17. Sky Isles,Only intended for this biome
+Zephyr Marlin,Exclusive,17. Sky Isles,Only intended for this biome
+Jungle Tigerfish,Exclusive,18. Ancient Jungle,Only intended for this biome
+Vineback Catfish,Exclusive,18. Ancient Jungle,Only intended for this biome
+Emerald Pike,Exclusive,18. Ancient Jungle,Only intended for this biome
+Temple Tetra,Exclusive,18. Ancient Jungle,Only intended for this biome
+Canopy Perch,Exclusive,18. Ancient Jungle,Only intended for this biome
+Jade Snakehead,Exclusive,18. Ancient Jungle,Only intended for this biome
+Orchid Bream,Exclusive,18. Ancient Jungle,Only intended for this biome
+Rainforest Gar,Exclusive,18. Ancient Jungle,Only intended for this biome
+Vinefin Eel,Exclusive,18. Ancient Jungle,Only intended for this biome
+Crownleaf Carp,Exclusive,18. Ancient Jungle,Only intended for this biome
+Ghostfin Perch,Exclusive,19. Haunted Fen,Only intended for this biome
+Wraith Eel,Exclusive,19. Haunted Fen,Only intended for this biome
+Phantom Carp,Exclusive,19. Haunted Fen,Only intended for this biome
+Gravewater Pike,Exclusive,19. Haunted Fen,Only intended for this biome
+Spectral Catfish,Exclusive,19. Haunted Fen,Only intended for this biome
+Banshee Bream,Exclusive,19. Haunted Fen,Only intended for this biome
+Soulscale Dace,Exclusive,19. Haunted Fen,Only intended for this biome
+Ghoul Gar,Exclusive,19. Haunted Fen,Only intended for this biome
+Hauntfin Trout,Exclusive,19. Haunted Fen,Only intended for this biome
+Midnight Lampfish,Exclusive,19. Haunted Fen,Only intended for this biome
+Starmetal Pike,Exclusive,20. Starfall Crater,Only intended for this biome
+Meteor Carp,Exclusive,20. Starfall Crater,Only intended for this biome
+Cosmic Tetra,Exclusive,20. Starfall Crater,Only intended for this biome
+Astral Eel,Exclusive,20. Starfall Crater,Only intended for this biome
+Cometfin Trout,Exclusive,20. Starfall Crater,Only intended for this biome
+Nebula Perch,Exclusive,20. Starfall Crater,Only intended for this biome
+Starshard Bream,Exclusive,20. Starfall Crater,Only intended for this biome
+Voidscale Gar,Exclusive,20. Starfall Crater,Only intended for this biome
+Celestial Koi,Exclusive,20. Starfall Crater,Only intended for this biome
+Falling Starfish,Exclusive,20. Starfall Crater,Only intended for this biome
+Icebreaker Tuna,Exclusive,Cold Sea,Only intended for this biome
+Glacier Marlin,Exclusive,Cold Sea,Only intended for this biome
+Frostjaw Shark,Exclusive,Cold Sea,Only intended for this biome
+Polar Snapper,Exclusive,Cold Sea,Only intended for this biome
+Icefin Cod,Exclusive,Cold Sea,Only intended for this biome
+Bluefrost Haddock,Exclusive,Cold Sea,Only intended for this biome
+Glacial Ray,Exclusive,Cold Sea,Only intended for this biome
+Snowcrest Salmon,Exclusive,Cold Sea,Only intended for this biome
+Winter Grouper,Exclusive,Cold Sea,Only intended for this biome
+Arctic Eel,Exclusive,Cold Sea,Only intended for this biome
+Abyssal Angler,Exclusive,Abyss,Only intended for this biome
+Void Eel,Exclusive,Abyss,Only intended for this biome
+Blackwater Grouper,Exclusive,Abyss,Only intended for this biome
+Deepjaw Pike,Exclusive,Abyss,Only intended for this biome
+Trench Bream,Exclusive,Abyss,Only intended for this biome
+Lantern Abyssfish,Exclusive,Abyss,Only intended for this biome
+Pressureback Cod,Exclusive,Abyss,Only intended for this biome
+Shadow Ray,Exclusive,Abyss,Only intended for this biome
+Midnight Tuna,Exclusive,Abyss,Only intended for this biome
+Leviathan Minnow,Exclusive,Abyss,Only intended for this biome
+Runefin Trout,Exclusive,23. Enchanted River,Only intended for this biome
+River Spritefish,Exclusive,23. Enchanted River,Only intended for this biome
+Spellcurrent Carp,Exclusive,23. Enchanted River,Only intended for this biome
+Whisper Pike,Exclusive,23. Enchanted River,Only intended for this biome
+Silverstream Perch,Exclusive,23. Enchanted River,Only intended for this biome
+Mystic Dace,Exclusive,23. Enchanted River,Only intended for this biome
+Arcane Eel,Exclusive,23. Enchanted River,Only intended for this biome
+Crystalstream Chub,Exclusive,23. Enchanted River,Only intended for this biome
+Torrent Bream,Exclusive,23. Enchanted River,Only intended for this biome
+Wizard's Salmon,Exclusive,23. Enchanted River,Only intended for this biome
+Venomfin Carp,Exclusive,24. Toxic Mire,Only intended for this biome
+Acid Eel,Exclusive,24. Toxic Mire,Only intended for this biome
+Toxic Pike,Exclusive,24. Toxic Mire,Only intended for this biome
+Sludge Catfish,Exclusive,24. Toxic Mire,Only intended for this biome
+Poisonback Perch,Exclusive,24. Toxic Mire,Only intended for this biome
+Rotscale Gar,Exclusive,24. Toxic Mire,Only intended for this biome
+Caustic Bream,Exclusive,24. Toxic Mire,Only intended for this biome
+Blight Trout,Exclusive,24. Toxic Mire,Only intended for this biome
+Greenfang Minnow,Exclusive,24. Toxic Mire,Only intended for this biome
+Plaguefin Bass,Exclusive,24. Toxic Mire,Only intended for this biome
+Drakefin Carp,Exclusive,25. Dragon's Basin,Only intended for this biome
+Dragonscale Pike,Exclusive,25. Dragon's Basin,Only intended for this biome
+Wyrm Eel,Exclusive,25. Dragon's Basin,Only intended for this biome
+Emberwing Trout,Exclusive,25. Dragon's Basin,Only intended for this biome
+Dragonscale Bream,Exclusive,25. Dragon's Basin,Only intended for this biome
+Firebreath Gar,Exclusive,25. Dragon's Basin,Only intended for this biome
+Ancient Wyrmfish,Exclusive,25. Dragon's Basin,Only intended for this biome
+Rubyfin Salmon,Exclusive,25. Dragon's Basin,Only intended for this biome
+Dragonheart Koi,Exclusive,25. Dragon's Basin,Only intended for this biome
+Scaleclaw Catfish,Exclusive,25. Dragon's Basin,Only intended for this biome
+Common Carp,General,,Can be assigned to multiple suitable biomes
+Grass Carp,General,,Can be assigned to multiple suitable biomes
+Mirror Carp,General,,Can be assigned to multiple suitable biomes
+Crucian Carp,General,,Can be assigned to multiple suitable biomes
+Silver Carp,General,,Can be assigned to multiple suitable biomes
+Leather Carp,General,,Can be assigned to multiple suitable biomes
+Tench,General,,Can be assigned to multiple suitable biomes
+Rudd,General,,Can be assigned to multiple suitable biomes
+Roach,General,,Can be assigned to multiple suitable biomes
+Bleak,General,,Can be assigned to multiple suitable biomes
+Common Dace,General,,Can be assigned to multiple suitable biomes
+European Chub,General,,Can be assigned to multiple suitable biomes
+Ide,General,,Can be assigned to multiple suitable biomes
+Barbel,General,,Can be assigned to multiple suitable biomes
+Gudgeon,General,,Can be assigned to multiple suitable biomes
+Minnow,General,,Can be assigned to multiple suitable biomes
+Stone Loach,General,,Can be assigned to multiple suitable biomes
+Bullhead,General,,Can be assigned to multiple suitable biomes
+Ruffe,General,,Can be assigned to multiple suitable biomes
+Perch,General,,Can be assigned to multiple suitable biomes
+Yellow Perch,General,,Can be assigned to multiple suitable biomes
+Black Crappie,General,,Can be assigned to multiple suitable biomes
+White Crappie,General,,Can be assigned to multiple suitable biomes
+Bluegill,General,,Can be assigned to multiple suitable biomes
+Pumpkinseed,General,,Can be assigned to multiple suitable biomes
+Largemouth Bass,General,,Can be assigned to multiple suitable biomes
+Smallmouth Bass,General,,Can be assigned to multiple suitable biomes
+Rock Bass,General,,Can be assigned to multiple suitable biomes
+Striped Bass,General,,Can be assigned to multiple suitable biomes
+White Bass,General,,Can be assigned to multiple suitable biomes
+Channel Catfish,General,,Can be assigned to multiple suitable biomes
+Blue Catfish,General,,Can be assigned to multiple suitable biomes
+Flathead Catfish,General,,Can be assigned to multiple suitable biomes
+Brown Bullhead,General,,Can be assigned to multiple suitable biomes
+Yellow Bullhead,General,,Can be assigned to multiple suitable biomes
+White Catfish,General,,Can be assigned to multiple suitable biomes
+Black Bullhead,General,,Can be assigned to multiple suitable biomes
+Wels Catfish,General,,Can be assigned to multiple suitable biomes
+Glass Catfish,General,,Can be assigned to multiple suitable biomes
+Walking Catfish,General,,Can be assigned to multiple suitable biomes
+Rainbow Trout,General,,Can be assigned to multiple suitable biomes
+Brown Trout,General,,Can be assigned to multiple suitable biomes
+Brook Trout,General,,Can be assigned to multiple suitable biomes
+Lake Trout,General,,Can be assigned to multiple suitable biomes
+Cutthroat Trout,General,,Can be assigned to multiple suitable biomes
+Tiger Trout,General,,Can be assigned to multiple suitable biomes
+Golden Trout,General,,Can be assigned to multiple suitable biomes
+Steelhead,General,,Can be assigned to multiple suitable biomes
+Arctic Char,General,,Can be assigned to multiple suitable biomes
+Grayling,General,,Can be assigned to multiple suitable biomes
+Atlantic Salmon,General,,Can be assigned to multiple suitable biomes
+Chinook Salmon,General,,Can be assigned to multiple suitable biomes
+Coho Salmon,General,,Can be assigned to multiple suitable biomes
+Sockeye Salmon,General,,Can be assigned to multiple suitable biomes
+Pink Salmon,General,,Can be assigned to multiple suitable biomes
+Chum Salmon,General,,Can be assigned to multiple suitable biomes
+Landlocked Salmon,General,,Can be assigned to multiple suitable biomes
+Masu Salmon,General,,Can be assigned to multiple suitable biomes
+Huchen,General,,Can be assigned to multiple suitable biomes
+Danube Salmon,General,,Can be assigned to multiple suitable biomes
+Atlantic Cod,General,,Can be assigned to multiple suitable biomes
+Pacific Cod,General,,Can be assigned to multiple suitable biomes
+Haddock,General,,Can be assigned to multiple suitable biomes
+Pollock,General,,Can be assigned to multiple suitable biomes
+Whiting,General,,Can be assigned to multiple suitable biomes
+Hake,General,,Can be assigned to multiple suitable biomes
+Ling,General,,Can be assigned to multiple suitable biomes
+Burbot,General,,Can be assigned to multiple suitable biomes
+Saithe,General,,Can be assigned to multiple suitable biomes
+Cusk,General,,Can be assigned to multiple suitable biomes
+Atlantic Mackerel,General,,Can be assigned to multiple suitable biomes
+Pacific Mackerel,General,,Can be assigned to multiple suitable biomes
+Spanish Mackerel,General,,Can be assigned to multiple suitable biomes
+Horse Mackerel,General,,Can be assigned to multiple suitable biomes
+King Mackerel,General,,Can be assigned to multiple suitable biomes
+Indian Mackerel,General,,Can be assigned to multiple suitable biomes
+Jack Mackerel,General,,Can be assigned to multiple suitable biomes
+Chub Mackerel,General,,Can be assigned to multiple suitable biomes
+Frigate Mackerel,General,,Can be assigned to multiple suitable biomes
+Bullet Tuna,General,,Can be assigned to multiple suitable biomes
+Yellowfin Tuna,General,,Can be assigned to multiple suitable biomes
+Bluefin Tuna,General,,Can be assigned to multiple suitable biomes
+Skipjack Tuna,General,,Can be assigned to multiple suitable biomes
+Albacore Tuna,General,,Can be assigned to multiple suitable biomes
+Bigeye Tuna,General,,Can be assigned to multiple suitable biomes
+Little Tunny,General,,Can be assigned to multiple suitable biomes
+Bonito,General,,Can be assigned to multiple suitable biomes
+Kawakawa,General,,Can be assigned to multiple suitable biomes
+Longtail Tuna,General,,Can be assigned to multiple suitable biomes
+Dogtooth Tuna,General,,Can be assigned to multiple suitable biomes
+Red Snapper,General,,Can be assigned to multiple suitable biomes
+Lane Snapper,General,,Can be assigned to multiple suitable biomes
+Mangrove Snapper,General,,Can be assigned to multiple suitable biomes
+Vermilion Snapper,General,,Can be assigned to multiple suitable biomes
+Yellowtail Snapper,General,,Can be assigned to multiple suitable biomes
+Black Snapper,General,,Can be assigned to multiple suitable biomes
+Gray Snapper,General,,Can be assigned to multiple suitable biomes
+Cubera Snapper,General,,Can be assigned to multiple suitable biomes
+Schoolmaster Snapper,General,,Can be assigned to multiple suitable biomes
+Silk Snapper,General,,Can be assigned to multiple suitable biomes
+Red Grouper,General,,Can be assigned to multiple suitable biomes
+Black Grouper,General,,Can be assigned to multiple suitable biomes
+Gag Grouper,General,,Can be assigned to multiple suitable biomes
+Nassau Grouper,General,,Can be assigned to multiple suitable biomes
+Giant Grouper,General,,Can be assigned to multiple suitable biomes
+Potato Grouper,General,,Can be assigned to multiple suitable biomes
+Coral Grouper,General,,Can be assigned to multiple suitable biomes
+Camouflage Grouper,General,,Can be assigned to multiple suitable biomes
+Honeycomb Grouper,General,,Can be assigned to multiple suitable biomes
+Tiger Grouper,General,,Can be assigned to multiple suitable biomes
+Atlantic Herring,General,,Can be assigned to multiple suitable biomes
+Pacific Herring,General,,Can be assigned to multiple suitable biomes
+Sardine,General,,Can be assigned to multiple suitable biomes
+Anchovy,General,,Can be assigned to multiple suitable biomes
+Sprat,General,,Can be assigned to multiple suitable biomes
+Capelin,General,,Can be assigned to multiple suitable biomes
+Smelt,General,,Can be assigned to multiple suitable biomes
+Sand Lance,General,,Can be assigned to multiple suitable biomes
+Pilchard,General,,Can be assigned to multiple suitable biomes
+Menhaden,General,,Can be assigned to multiple suitable biomes
+Blue Marlin,General,,Can be assigned to multiple suitable biomes
+Black Marlin,General,,Can be assigned to multiple suitable biomes
+Striped Marlin,General,,Can be assigned to multiple suitable biomes
+White Marlin,General,,Can be assigned to multiple suitable biomes
+Sailfish,General,,Can be assigned to multiple suitable biomes
+Swordfish,General,,Can be assigned to multiple suitable biomes
+Spearfish,General,,Can be assigned to multiple suitable biomes
+Wahoo,General,,Can be assigned to multiple suitable biomes
+Dolphinfish,General,,Can be assigned to multiple suitable biomes
+Barracuda,General,,Can be assigned to multiple suitable biomes
+Great Barracuda,General,,Can be assigned to multiple suitable biomes
+European Barracuda,General,,Can be assigned to multiple suitable biomes
+Cobia,General,,Can be assigned to multiple suitable biomes
+Amberjack,General,,Can be assigned to multiple suitable biomes
+Greater Amberjack,General,,Can be assigned to multiple suitable biomes
+Yellowtail Amberjack,General,,Can be assigned to multiple suitable biomes
+Seriola,General,,Can be assigned to multiple suitable biomes
+Trevally,General,,Can be assigned to multiple suitable biomes
+Giant Trevally,General,,Can be assigned to multiple suitable biomes
+Bluefin Trevally,General,,Can be assigned to multiple suitable biomes
+Red Drum,General,,Can be assigned to multiple suitable biomes
+Black Drum,General,,Can be assigned to multiple suitable biomes
+Freshwater Drum,General,,Can be assigned to multiple suitable biomes
+Weakfish,General,,Can be assigned to multiple suitable biomes
+Croaker,General,,Can be assigned to multiple suitable biomes
+Spot,General,,Can be assigned to multiple suitable biomes
+Mullet,General,,Can be assigned to multiple suitable biomes
+Red Mullet,General,,Can be assigned to multiple suitable biomes
+Goatfish,General,,Can be assigned to multiple suitable biomes
+Parrotfish,General,,Can be assigned to multiple suitable biomes
+Wrasse,General,,Can be assigned to multiple suitable biomes
+Cleaner Wrasse,General,,Can be assigned to multiple suitable biomes
+Hogfish,General,,Can be assigned to multiple suitable biomes
+Damselfish,General,,Can be assigned to multiple suitable biomes
+Clownfish,General,,Can be assigned to multiple suitable biomes
+Surgeonfish,General,,Can be assigned to multiple suitable biomes
+Tang,General,,Can be assigned to multiple suitable biomes
+Triggerfish,General,,Can be assigned to multiple suitable biomes
+Filefish,General,,Can be assigned to multiple suitable biomes
+Pufferfish,General,,Can be assigned to multiple suitable biomes
+Porcupinefish,General,,Can be assigned to multiple suitable biomes
+Boxfish,General,,Can be assigned to multiple suitable biomes
+Cowfish,General,,Can be assigned to multiple suitable biomes
+Scorpionfish,General,,Can be assigned to multiple suitable biomes
+Lionfish,General,,Can be assigned to multiple suitable biomes
+Stonefish,General,,Can be assigned to multiple suitable biomes
+Gurnard,General,,Can be assigned to multiple suitable biomes
+Sculpin,General,,Can be assigned to multiple suitable biomes
+Rockfish,General,,Can be assigned to multiple suitable biomes
+Lingcod,General,,Can be assigned to multiple suitable biomes
+Flounder,General,,Can be assigned to multiple suitable biomes
+Halibut,General,,Can be assigned to multiple suitable biomes
+Sole,General,,Can be assigned to multiple suitable biomes
+Plaice,General,,Can be assigned to multiple suitable biomes
+Turbot,General,,Can be assigned to multiple suitable biomes
+Brill,General,,Can be assigned to multiple suitable biomes
+Skate,General,,Can be assigned to multiple suitable biomes
+Stingray,General,,Can be assigned to multiple suitable biomes
+Eagle Ray,General,,Can be assigned to multiple suitable biomes
+Manta Ray,General,,Can be assigned to multiple suitable biomes
+Moray Eel,General,,Can be assigned to multiple suitable biomes
+Conger Eel,General,,Can be assigned to multiple suitable biomes
+Garden Eel,General,,Can be assigned to multiple suitable biomes
+Snake Eel,General,,Can be assigned to multiple suitable biomes
+Ribbon Eel,General,,Can be assigned to multiple suitable biomes
+Electric Eel,General,,Can be assigned to multiple suitable biomes
+Spiny Eel,General,,Can be assigned to multiple suitable biomes
+Freshwater Eel,General,,Can be assigned to multiple suitable biomes
+Wolf Eel,General,,Can be assigned to multiple suitable biomes
+Gulper Eel,General,,Can be assigned to multiple suitable biomes
+Octopus,General,,Can be assigned to multiple suitable biomes
+Cuttlefish,General,,Can be assigned to multiple suitable biomes
+Squid,General,,Can be assigned to multiple suitable biomes
+Bobtail Squid,General,,Can be assigned to multiple suitable biomes
+Nautilus,General,,Can be assigned to multiple suitable biomes
+Shrimpfish,General,,Can be assigned to multiple suitable biomes
+Pipefish,General,,Can be assigned to multiple suitable biomes
+Seahorse,General,,Can be assigned to multiple suitable biomes
+Needlefish,General,,Can be assigned to multiple suitable biomes
+Flying Fish,General,,Can be assigned to multiple suitable biomes
+Tarpon,General,,Can be assigned to multiple suitable biomes
+Bonefish,General,,Can be assigned to multiple suitable biomes
+Permit,General,,Can be assigned to multiple suitable biomes
+Snook,General,,Can be assigned to multiple suitable biomes
+Roach Goby,General,,Can be assigned to multiple suitable biomes
+Mudfish,General,,Can be assigned to multiple suitable biomes
+Killifish,General,,Can be assigned to multiple suitable biomes
+Topminnow,General,,Can be assigned to multiple suitable biomes
+Silverside,General,,Can be assigned to multiple suitable biomes
+Pupfish,General,,Can be assigned to multiple suitable biomes
+Sturgeon,General,,Can be assigned to multiple suitable biomes
+Paddlefish,General,,Can be assigned to multiple suitable biomes
+Gar,General,,Can be assigned to multiple suitable biomes
+Bowfin,General,,Can be assigned to multiple suitable biomes
+Bichir,General,,Can be assigned to multiple suitable biomes
+Arapaima,General,,Can be assigned to multiple suitable biomes
+Piranha,General,,Can be assigned to multiple suitable biomes
+Pacú,General,,Can be assigned to multiple suitable biomes
+Tigerfish,General,,Can be assigned to multiple suitable biomes
+Payara,General,,Can be assigned to multiple suitable biomes
+Electric Knifefish,General,,Can be assigned to multiple suitable biomes
+Clown Knifefish,General,,Can be assigned to multiple suitable biomes
+Arowana,General,,Can be assigned to multiple suitable biomes
+Oscar,General,,Can be assigned to multiple suitable biomes
+Discus,General,,Can be assigned to multiple suitable biomes
+Angelfish,General,,Can be assigned to multiple suitable biomes
+Gourami,General,,Can be assigned to multiple suitable biomes
+Betta,General,,Can be assigned to multiple suitable biomes
+Koi,General,,Can be assigned to multiple suitable biomes
+Goldfish,General,,Can be assigned to multiple suitable biomes
+Sunfish,General,,Can be assigned to multiple suitable biomes
+Ocean Sunfish,General,,Can be assigned to multiple suitable biomes
+Opah,General,,Can be assigned to multiple suitable biomes
+John Dory,General,,Can be assigned to multiple suitable biomes
+Monkfish,General,,Can be assigned to multiple suitable biomes
+Anglerfish,General,,Can be assigned to multiple suitable biomes
+Frogfish,General,,Can be assigned to multiple suitable biomes
+Flying Gurnard,General,,Can be assigned to multiple suitable biomes
+Batfish,General,,Can be assigned to multiple suitable biomes
+Filefish,General,,Can be assigned to multiple suitable biomes
+Trigger Snapper,General,,Can be assigned to multiple suitable biomes
+Squirrelfish,General,,Can be assigned to multiple suitable biomes
+Soldierfish,General,,Can be assigned to multiple suitable biomes
+Cardinalfish,General,,Can be assigned to multiple suitable biomes
+Grunt,General,,Can be assigned to multiple suitable biomes
+Porgy,General,,Can be assigned to multiple suitable biomes
+Bream,General,,Can be assigned to multiple suitable biomes
+Sea Bream,General,,Can be assigned to multiple suitable biomes
+Black Bream,General,,Can be assigned to multiple suitable biomes
+Gilthead Bream,General,,Can be assigned to multiple suitable biomes
+Ocellaris Clownfish,Exclusive,Coral Reef,Ocean layer: Coral Reef (Sunlight zone)
+Blue Tang,Exclusive,Coral Reef,Ocean layer: Coral Reef (Sunlight zone)
+Bumphead Parrotfish,Exclusive,Coral Reef,Ocean layer: Coral Reef (Sunlight zone)
+Moorish Idol,Exclusive,Coral Reef,Ocean layer: Coral Reef (Sunlight zone)
+Red Lionfish,Exclusive,Coral Reef,Ocean layer: Coral Reef (Sunlight zone)
+Mandarin Dragonet,Exclusive,Coral Reef,Ocean layer: Coral Reef (Sunlight zone)
+Humphead Wrasse,Exclusive,Coral Reef,Ocean layer: Coral Reef (Sunlight zone)
+Foxface Rabbitfish,Exclusive,Coral Reef,Ocean layer: Coral Reef (Sunlight zone)
+Copperband Butterflyfish,Exclusive,Coral Reef,Ocean layer: Coral Reef (Sunlight zone)
+Harlequin Tuskfish,Exclusive,Coral Reef,Ocean layer: Coral Reef (Sunlight zone)
+Mahi-Mahi,Exclusive,Warm Ocean,Ocean layer: Warm Ocean (Sunlight zone)
+Atlantic Sailfish,Exclusive,Warm Ocean,Ocean layer: Warm Ocean (Sunlight zone)
+Rainbow Runner,Exclusive,Warm Ocean,Ocean layer: Warm Ocean (Sunlight zone)
+Bigeye Trevally,Exclusive,Warm Ocean,Ocean layer: Warm Ocean (Sunlight zone)
+Roosterfish,Exclusive,Warm Ocean,Ocean layer: Warm Ocean (Sunlight zone)
+Milkfish,Exclusive,Warm Ocean,Ocean layer: Warm Ocean (Sunlight zone)
+Talang Queenfish,Exclusive,Warm Ocean,Ocean layer: Warm Ocean (Sunlight zone)
+Green Jobfish,Exclusive,Warm Ocean,Ocean layer: Warm Ocean (Sunlight zone)
+Yellowtail Kingfish,Exclusive,Warm Ocean,Ocean layer: Warm Ocean (Sunlight zone)
+Giant Herring,Exclusive,Warm Ocean,Ocean layer: Warm Ocean (Sunlight zone)
+Atlantic Wolffish,Exclusive,Cold Sea,Ocean layer: Cold Sea (Sunlight zone)
+Lumpsucker,Exclusive,Cold Sea,Ocean layer: Cold Sea (Sunlight zone)
+Greenland Shark,Exclusive,Cold Sea,Ocean layer: Cold Sea (Sunlight zone)
+Sablefish,Exclusive,Cold Sea,Ocean layer: Cold Sea (Sunlight zone)
+Pacific Saury,Exclusive,Cold Sea,Ocean layer: Cold Sea (Sunlight zone)
+Arctic Cod,Exclusive,Cold Sea,Ocean layer: Cold Sea (Sunlight zone)
+Spotted Wolffish,Exclusive,Cold Sea,Ocean layer: Cold Sea (Sunlight zone)
+Blue Ling,Exclusive,Cold Sea,Ocean layer: Cold Sea (Sunlight zone)
+Kelp Greenling,Exclusive,Cold Sea,Ocean layer: Cold Sea (Sunlight zone)
+Atlantic Redfish,Exclusive,Cold Sea,Ocean layer: Cold Sea (Sunlight zone)
+Lanternfish,Exclusive,Deep Ocean,Ocean layer: Deep Ocean (Twilight zone)
+Marine Hatchetfish,Exclusive,Deep Ocean,Ocean layer: Deep Ocean (Twilight zone)
+Sloane's Viperfish,Exclusive,Deep Ocean,Ocean layer: Deep Ocean (Twilight zone)
+Barreleye,Exclusive,Deep Ocean,Ocean layer: Deep Ocean (Twilight zone)
+Longnose Lancetfish,Exclusive,Deep Ocean,Ocean layer: Deep Ocean (Twilight zone)
+Bristlemouth,Exclusive,Deep Ocean,Ocean layer: Deep Ocean (Twilight zone)
+Escolar,Exclusive,Deep Ocean,Ocean layer: Deep Ocean (Twilight zone)
+Ribbon Sawtail,Exclusive,Deep Ocean,Ocean layer: Deep Ocean (Twilight zone)
+Pacific Blackdragon,Exclusive,Deep Ocean,Ocean layer: Deep Ocean (Twilight zone)
+Silver Spinyfin,Exclusive,Deep Ocean,Ocean layer: Deep Ocean (Twilight zone)
+Humpback Anglerfish,Exclusive,Deep Sea,Ocean layer: Deep Sea (Midnight zone)
+Pelican Gulper Eel,Exclusive,Deep Sea,Ocean layer: Deep Sea (Midnight zone)
+Common Fangtooth,Exclusive,Deep Sea,Ocean layer: Deep Sea (Midnight zone)
+Black Dragonfish,Exclusive,Deep Sea,Ocean layer: Deep Sea (Midnight zone)
+Vampire Squid,Exclusive,Deep Sea,Ocean layer: Deep Sea (Midnight zone)
+Frilled Shark,Exclusive,Deep Sea,Ocean layer: Deep Sea (Midnight zone)
+Black Swallower,Exclusive,Deep Sea,Ocean layer: Deep Sea (Midnight zone)
+Telescope Octopus,Exclusive,Deep Sea,Ocean layer: Deep Sea (Midnight zone)
+Cookiecutter Shark,Exclusive,Deep Sea,Ocean layer: Deep Sea (Midnight zone)
+Deepsea Lizardfish,Exclusive,Deep Sea,Ocean layer: Deep Sea (Midnight zone)
+Abyssal Grenadier,Exclusive,Abyss,Ocean layer: Abyss (Abyssal zone)
+Tripod Fish,Exclusive,Abyss,Ocean layer: Abyss (Abyssal zone)
+Bathysaurus,Exclusive,Abyss,Ocean layer: Abyss (Abyssal zone)
+Dumbo Octopus,Exclusive,Abyss,Ocean layer: Abyss (Abyssal zone)
+Sea Pig,Exclusive,Abyss,Ocean layer: Abyss (Abyssal zone)
+Deepsea Rattail,Exclusive,Abyss,Ocean layer: Abyss (Abyssal zone)
+Faceless Cusk,Exclusive,Abyss,Ocean layer: Abyss (Abyssal zone)
+Ghost Shark,Exclusive,Abyss,Ocean layer: Abyss (Abyssal zone)
+Abyssal Spiderfish,Exclusive,Abyss,Ocean layer: Abyss (Abyssal zone)
+Pallid Sculpin,Exclusive,Abyss,Ocean layer: Abyss (Abyssal zone)
+Mariana Snailfish,Exclusive,Trench,Ocean layer: Trench (Hadal zone)
+Hadal Grenadier,Exclusive,Trench,Ocean layer: Trench (Hadal zone)
+Ethereal Snailfish,Exclusive,Trench,Ocean layer: Trench (Hadal zone)
+Abyssobrotula,Exclusive,Trench,Ocean layer: Trench (Hadal zone)
+Swire's Snailfish,Exclusive,Trench,Ocean layer: Trench (Hadal zone)
+Hadal Amphipod,Exclusive,Trench,Ocean layer: Trench (Hadal zone)
+Pallid Snailfish,Exclusive,Trench,Ocean layer: Trench (Hadal zone)
+Deepsea Cusk-eel,Exclusive,Trench,Ocean layer: Trench (Hadal zone)
+Elpidia Sea Cucumber,Exclusive,Trench,Ocean layer: Trench (Hadal zone)
+Hadal Lizardfish,Exclusive,Trench,Ocean layer: Trench (Hadal zone)

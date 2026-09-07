@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_volcanic_lagoon
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: volcanic_lagoon
+  displayName: Volcanic Lagoon
+  elevation: 0.3
+  temperature: 0.92
+  moisture: 0.8
+  variance: 0.55
+  climateWeight: 0.6
+  isWater: 1
+  tileColor: {r: 0.45, g: 0.3, b: 0.3, a: 1}
+  fish:
+  - {fileID: 11400000, guid: 7061271672480d44b9db748091daa200, type: 2}
+  - {fileID: 11400000, guid: 1c5a9fd384a265c448c7b89392a2f5cf, type: 2}
+  - {fileID: 11400000, guid: 19ca487141215ce428b8f5a850a1dafd, type: 2}
+  - {fileID: 11400000, guid: 5f4bcd6a1b274f74db9d02fcb918d09a, type: 2}
+  - {fileID: 11400000, guid: 3f9298f5e5b93d44888cdf546bec547a, type: 2}
+  - {fileID: 11400000, guid: e82bdebdedfb0dc43b106e4d208623d5, type: 2}
+  - {fileID: 11400000, guid: c8bc601449e03a94d811067380d63122, type: 2}
+  - {fileID: 11400000, guid: acb8d2645f37f494d992f4b4fe9d59ec, type: 2}
+  - {fileID: 11400000, guid: a2d0399aa00e72d459f0a2b3298a2a76, type: 2}
+  - {fileID: 11400000, guid: 3146541ca0aac914aaa79af63e5dd3c4, type: 2}
+  - {fileID: 11400000, guid: 25d1bf57aa5bb9149a1733cb9b0c5336, type: 2}
+  - {fileID: 11400000, guid: 1bcba6564721b9f44a3f4f8f34906606, type: 2}
+  - {fileID: 11400000, guid: 3ad16aa3654a8b642847234167ed9e3f, type: 2}
+  - {fileID: 11400000, guid: 51fe84a530b8b8b459681ae0ffa1179c, type: 2}
+  - {fileID: 11400000, guid: 172023caef15bda44ae3260c13c3b747, type: 2}
+  - {fileID: 11400000, guid: 06449e49fe61de648ba1c615ea7a81ed, type: 2}
+  - {fileID: 11400000, guid: 8dc9f7622e42d5644908f2f2dcfddb73, type: 2}
+  - {fileID: 11400000, guid: 918a6c0c7bdd3b34eb482331f4fb0232, type: 2}
+  - {fileID: 11400000, guid: 87d37eb2dc60a484388f202378bf7c25, type: 2}
+  - {fileID: 11400000, guid: 758a32b1cb2e5624dbfb2116c280e360, type: 2}
+  - {fileID: 11400000, guid: 7f41106e7901c1246a726ae7c9a36e8d, type: 2}
+  - {fileID: 11400000, guid: 13c359a43eda2ed4496c3192b30e7df5, type: 2}
+  - {fileID: 11400000, guid: fb22bb1b52515714bbb5c9ea6b379dd8, type: 2}
+  - {fileID: 11400000, guid: 2f862f00257ba044fa467c4996d39b9e, type: 2}
+  - {fileID: 11400000, guid: 5308f562034d810499e76581a26c4392, type: 2}
+  - {fileID: 11400000, guid: 4bc65a97d4f8d73469cb99ea6bd3e764, type: 2}
+  - {fileID: 11400000, guid: 982053455eb8d3447a54c61262390c7a, type: 2}
+  - {fileID: 11400000, guid: be03d2fb45311a246b79d3beb952ca9e, type: 2}
+  - {fileID: 11400000, guid: fba0fb41c22248c4b882072ff352df6c, type: 2}
+  - {fileID: 11400000, guid: c4606384756fed348b6d459b2b962f2c, type: 2}
+  - {fileID: 11400000, guid: 38729e3c67c750b41bf4e83670e4f520, type: 2}
+  - {fileID: 11400000, guid: 5bfa9cb2a3a715748a6ae73d1cb0cc65, type: 2}
+  - {fileID: 11400000, guid: 747640f65d6ce8a49ad407319b8083a1, type: 2}
+  - {fileID: 11400000, guid: f11541d1035d5ff4485491e85b3a12cd, type: 2}
+  - {fileID: 11400000, guid: 4a87b8c080d0fb247b0b99b182c7c731, type: 2}
+  - {fileID: 11400000, guid: 27cfb732364be234b8bb0f5270986cae, type: 2}
+  - {fileID: 11400000, guid: 4e5259bb485b33b49ade0b0cd99ec9a8, type: 2}
+  - {fileID: 11400000, guid: a12ddcf22b229b643a149eb17e17f2de, type: 2}
+  - {fileID: 11400000, guid: ce9b4e6436e648547a8949fd237e9a7d, type: 2}
+  requiresUnlock: 
+  depthTier: 0

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_misty_marsh
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: misty_marsh
+  displayName: Misty Marsh
+  elevation: 0.3
+  temperature: 0.55
+  moisture: 0.95
+  variance: 0.4
+  climateWeight: 0.9
+  isWater: 1
+  tileColor: {r: 0.35, g: 0.45, b: 0.35, a: 1}
+  fish:
+  - {fileID: 11400000, guid: bd3deb2f3f1f41f468a3ee95932c2a2d, type: 2}
+  - {fileID: 11400000, guid: daf8ad28b2f7a9d499837678d7c46f9d, type: 2}
+  - {fileID: 11400000, guid: ccd621b61d4a8e54c943031d0235efeb, type: 2}
+  - {fileID: 11400000, guid: 09c81ce8778a1b44d8f1bcb6c104323b, type: 2}
+  - {fileID: 11400000, guid: a92bba43f1fef164eafc3c3d6da23952, type: 2}
+  - {fileID: 11400000, guid: 45c825a450d7d1340beebb9b34da6070, type: 2}
+  - {fileID: 11400000, guid: e8c9006b4a5747b4eaef9568834fccba, type: 2}
+  - {fileID: 11400000, guid: 8cb7a1a893176dc4bb63abfeb7bb823c, type: 2}
+  - {fileID: 11400000, guid: 958e8de5312f2ce4c8daa0a18fa97b54, type: 2}
+  - {fileID: 11400000, guid: 2434b779e6889584ab70ff50d9961654, type: 2}
+  - {fileID: 11400000, guid: 3cd8b5aad6f70e348be7c5cebae5550e, type: 2}
+  - {fileID: 11400000, guid: 3a0085f6fb46916439516ca06027f232, type: 2}
+  - {fileID: 11400000, guid: 3e58ff652c8f2584788efed27b0b48c7, type: 2}
+  - {fileID: 11400000, guid: 5582d76b42bf8bb4e8a97d3b31b2eb48, type: 2}
+  - {fileID: 11400000, guid: 8b27c1be4bc2dcd4daa92cf3915fb5c0, type: 2}
+  - {fileID: 11400000, guid: ebb2bfa995d4c5c4c8cbb98942f52075, type: 2}
+  - {fileID: 11400000, guid: 9ea82ebd3791c3444895faf762ff5528, type: 2}
+  - {fileID: 11400000, guid: 3467eff0b50cc0d41b95a1ec74da20b8, type: 2}
+  - {fileID: 11400000, guid: 5d3c877a639dfe141a361a410f40c97f, type: 2}
+  - {fileID: 11400000, guid: 8d0ef554dd8d3d74c85fd0546fcdbcc5, type: 2}
+  - {fileID: 11400000, guid: 491443313feb71248b270c7a286cce10, type: 2}
+  - {fileID: 11400000, guid: 0c3af5ad7a5a32746a4f091666de5029, type: 2}
+  - {fileID: 11400000, guid: 006f8423151d73243965927c57e111b0, type: 2}
+  - {fileID: 11400000, guid: 542abf295e39f434499052ab181f9222, type: 2}
+  - {fileID: 11400000, guid: be03d2fb45311a246b79d3beb952ca9e, type: 2}
+  - {fileID: 11400000, guid: 74cd58f308d254e4ea15316530462014, type: 2}
+  - {fileID: 11400000, guid: de974faad565f8f47b465dafbf454b2f, type: 2}
+  - {fileID: 11400000, guid: 7c1a8f435bc8b7b45b6be9b7df0a005c, type: 2}
+  - {fileID: 11400000, guid: 9da5ecb291631a545a6c4e7a4a35b9c7, type: 2}
+  - {fileID: 11400000, guid: 0abd100d9c0e0b646bd20af22a1aa546, type: 2}
+  - {fileID: 11400000, guid: d4a1df79e5758424cb3ab0fefb0c1693, type: 2}
+  - {fileID: 11400000, guid: 7898281456bf12e4a898256642c90829, type: 2}
+  - {fileID: 11400000, guid: 938f06cb030b23f408e24c09f697df30, type: 2}
+  - {fileID: 11400000, guid: 3e0204f007086e340946f0b19ee14131, type: 2}
+  - {fileID: 11400000, guid: 108b9194a72f41a46b626620adc6c0d2, type: 2}
+  - {fileID: 11400000, guid: 9c5681651956ae6468bacb48b9730811, type: 2}
+  - {fileID: 11400000, guid: 9260f069bdf699049a00457451e5251c, type: 2}
+  - {fileID: 11400000, guid: 66043865c11837e4783554132307fc8d, type: 2}
+  - {fileID: 11400000, guid: c7a9551ac048ca542bff988a747aca19, type: 2}
+  - {fileID: 11400000, guid: 5697646ae7f85fc4f930a2f38296fc66, type: 2}
+  requiresUnlock: 
+  depthTier: 0

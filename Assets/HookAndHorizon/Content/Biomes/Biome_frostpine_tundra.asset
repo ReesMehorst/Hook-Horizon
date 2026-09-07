@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_frostpine_tundra
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: frostpine_tundra
+  displayName: Frostpine Tundra
+  elevation: 0.55
+  temperature: 0.08
+  moisture: 0.45
+  variance: 0.3
+  climateWeight: 1
+  isWater: 1
+  tileColor: {r: 0.8, g: 0.88, b: 0.92, a: 1}
+  fish:
+  - {fileID: 11400000, guid: 4a69fe66033c8784a880cdafdc8d7a77, type: 2}
+  - {fileID: 11400000, guid: 283f97620e19d9642a8bb52f4b9a03c2, type: 2}
+  - {fileID: 11400000, guid: c97138d9ca461884db15d7b62cf7d600, type: 2}
+  - {fileID: 11400000, guid: 8a4ba7207ac62304bbe0918ac7db5a87, type: 2}
+  - {fileID: 11400000, guid: f8fc31c738945694381ce18ebc6aac28, type: 2}
+  - {fileID: 11400000, guid: 30bc05a56e3203642afeae40e26f6c9c, type: 2}
+  - {fileID: 11400000, guid: e50c3a7aed051ec44a4e5745be9c4e1a, type: 2}
+  - {fileID: 11400000, guid: a349d67c0f470b645a9009c3aebf4e97, type: 2}
+  - {fileID: 11400000, guid: 81bd048408a02544fb583db6c67d16b8, type: 2}
+  - {fileID: 11400000, guid: 0bd8995dfd2439947bdbd78bd43dc553, type: 2}
+  - {fileID: 11400000, guid: 3f3c40d791143fc4ca8dad773cc69061, type: 2}
+  - {fileID: 11400000, guid: ebb2bfa995d4c5c4c8cbb98942f52075, type: 2}
+  - {fileID: 11400000, guid: d82c863b8c8f7f043b734bf39cfaa6db, type: 2}
+  - {fileID: 11400000, guid: 5582d76b42bf8bb4e8a97d3b31b2eb48, type: 2}
+  - {fileID: 11400000, guid: cd4019e6c40c2714285d6fc522e0b15f, type: 2}
+  - {fileID: 11400000, guid: 16d8dc87b354edd409d8f23faff59b99, type: 2}
+  - {fileID: 11400000, guid: f6a9053292f0bc4499cebc8932741b61, type: 2}
+  - {fileID: 11400000, guid: 97a25595745b69d4ea34f8d1609877f2, type: 2}
+  - {fileID: 11400000, guid: 1710863f344dfbe43a8b1e23f22a5f02, type: 2}
+  - {fileID: 11400000, guid: c7a9551ac048ca542bff988a747aca19, type: 2}
+  - {fileID: 11400000, guid: 50b52693a8a7c7445a6309cd49738380, type: 2}
+  - {fileID: 11400000, guid: 8d0ef554dd8d3d74c85fd0546fcdbcc5, type: 2}
+  - {fileID: 11400000, guid: 82b1a0709e5aa3c4589d3996b38e086e, type: 2}
+  - {fileID: 11400000, guid: 9da5ecb291631a545a6c4e7a4a35b9c7, type: 2}
+  - {fileID: 11400000, guid: 5697646ae7f85fc4f930a2f38296fc66, type: 2}
+  - {fileID: 11400000, guid: 68a6997e630b36a48848c15256f86f65, type: 2}
+  - {fileID: 11400000, guid: d85dd3e3154cb354ba98f6cf1393c2ca, type: 2}
+  - {fileID: 11400000, guid: 827d8a511fa71bc4fad9934ce9f668a8, type: 2}
+  - {fileID: 11400000, guid: c2f213f5a49e5c84181b8f064009cc15, type: 2}
+  - {fileID: 11400000, guid: 11d1af305b7728f43a13b6f2f4fbaad4, type: 2}
+  - {fileID: 11400000, guid: ea2f1edcf5e8d58478c9a2e5a2e1c852, type: 2}
+  - {fileID: 11400000, guid: dba21a9a3caad674192a83256804a56a, type: 2}
+  - {fileID: 11400000, guid: 5d7bef01ab4e63d41ab08d3b2c4b28d3, type: 2}
+  - {fileID: 11400000, guid: e0383a66ac977ce4f8606c9a9445877a, type: 2}
+  - {fileID: 11400000, guid: f15c85b8741a34a41adf9bb992fe7908, type: 2}
+  - {fileID: 11400000, guid: 8296e482c2f726a4dac756e7a73fb03f, type: 2}
+  - {fileID: 11400000, guid: fb094def68b38d347964901aa3ccd788, type: 2}
+  - {fileID: 11400000, guid: 9b0b33d4d1791654f813f708b4274a37, type: 2}
+  - {fileID: 11400000, guid: ddf952603833b7a40a904070fcc76eca, type: 2}
+  - {fileID: 11400000, guid: 5d3c877a639dfe141a361a410f40c97f, type: 2}
+  requiresUnlock: 
+  depthTier: 0

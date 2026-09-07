@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_dragons_basin
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: dragons_basin
+  displayName: Dragon's Basin
+  elevation: 0.65
+  temperature: 0.9
+  moisture: 0.55
+  variance: 0.9
+  climateWeight: 0.05
+  isWater: 1
+  tileColor: {r: 0.55, g: 0.25, b: 0.3, a: 1}
+  fish:
+  - {fileID: 11400000, guid: fa4cc79109aaf3c43bfcd7965ed4c932, type: 2}
+  - {fileID: 11400000, guid: 4f704d19366282a4e9d2b5b2f6e8a6ec, type: 2}
+  - {fileID: 11400000, guid: 1894cc8fcd960154795440040030adf0, type: 2}
+  - {fileID: 11400000, guid: e3e9ba91697a8b2469c12d09c12d53cf, type: 2}
+  - {fileID: 11400000, guid: 9963121fc59c4104f943c769b4f3edca, type: 2}
+  - {fileID: 11400000, guid: 3a7b44423eab09644b6c1e39f9d4e378, type: 2}
+  - {fileID: 11400000, guid: 32d4b928a0b95d246ae7e30e760f2ee0, type: 2}
+  - {fileID: 11400000, guid: ca2e884b08480bf4c90a95b9ce5be66b, type: 2}
+  - {fileID: 11400000, guid: 8b458b2d467c15348b59ab869f814ca1, type: 2}
+  - {fileID: 11400000, guid: 2e97c2241fef9374fa6e085b6b31d894, type: 2}
+  - {fileID: 11400000, guid: 627acbb1fa155c5458720aa7f044035d, type: 2}
+  - {fileID: 11400000, guid: d85dd3e3154cb354ba98f6cf1393c2ca, type: 2}
+  - {fileID: 11400000, guid: ab612a6cba386b24abc462e86e9d080a, type: 2}
+  - {fileID: 11400000, guid: 5582d76b42bf8bb4e8a97d3b31b2eb48, type: 2}
+  - {fileID: 11400000, guid: 75ea1f0456305b4419d7339ea7cf8d06, type: 2}
+  - {fileID: 11400000, guid: de974faad565f8f47b465dafbf454b2f, type: 2}
+  - {fileID: 11400000, guid: 16d8dc87b354edd409d8f23faff59b99, type: 2}
+  - {fileID: 11400000, guid: 3e58ff652c8f2584788efed27b0b48c7, type: 2}
+  - {fileID: 11400000, guid: bfe3a4b7cba4ecc4f8f5a0670cfa5523, type: 2}
+  - {fileID: 11400000, guid: c99aeb28bf3d4d348bf8502d00eec96f, type: 2}
+  - {fileID: 11400000, guid: 6cc2964323179b64290c01a1223e3377, type: 2}
+  - {fileID: 11400000, guid: c7a9551ac048ca542bff988a747aca19, type: 2}
+  - {fileID: 11400000, guid: 8d6eb37f8f633e842a020b285eefa0dc, type: 2}
+  - {fileID: 11400000, guid: 431ef7dab97bcb14c9c7fd4201f536d1, type: 2}
+  - {fileID: 11400000, guid: 3a915ad57688d0e4e924bc16e3464083, type: 2}
+  - {fileID: 11400000, guid: 9da5ecb291631a545a6c4e7a4a35b9c7, type: 2}
+  - {fileID: 11400000, guid: 7e220763e16b3fa459c8c179620187ec, type: 2}
+  - {fileID: 11400000, guid: 99efefa698965374cbd699657859faa1, type: 2}
+  - {fileID: 11400000, guid: c5905129c26562a4892d64406b981991, type: 2}
+  - {fileID: 11400000, guid: ddf952603833b7a40a904070fcc76eca, type: 2}
+  - {fileID: 11400000, guid: ca62acfb4529c4c4e91bedeb68dfd83a, type: 2}
+  - {fileID: 11400000, guid: 66043865c11837e4783554132307fc8d, type: 2}
+  - {fileID: 11400000, guid: daa0e4019225c604d91ab706cc2fae7c, type: 2}
+  - {fileID: 11400000, guid: e746d2b984e52874b916d2f49ab28901, type: 2}
+  - {fileID: 11400000, guid: ae1e65bc05d21bf45ab230857d864f13, type: 2}
+  - {fileID: 11400000, guid: 261bdf532945fc645a0ef063b0eae90a, type: 2}
+  - {fileID: 11400000, guid: be03d2fb45311a246b79d3beb952ca9e, type: 2}
+  - {fileID: 11400000, guid: f6a9053292f0bc4499cebc8932741b61, type: 2}
+  - {fileID: 11400000, guid: 0fc8b3b8bc54bf04881ca29f00e514aa, type: 2}
+  - {fileID: 11400000, guid: dba21a9a3caad674192a83256804a56a, type: 2}
+  requiresUnlock: dragons_basin
+  depthTier: 0

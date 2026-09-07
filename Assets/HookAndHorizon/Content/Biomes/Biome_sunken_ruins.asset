@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_sunken_ruins
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: sunken_ruins
+  displayName: Sunken Ruins
+  elevation: 0.22
+  temperature: 0.55
+  moisture: 0.9
+  variance: 0.65
+  climateWeight: 0.05
+  isWater: 1
+  tileColor: {r: 0.4, g: 0.55, b: 0.55, a: 1}
+  fish:
+  - {fileID: 11400000, guid: 33ac39b0cf98a0742833380b3a4eb85a, type: 2}
+  - {fileID: 11400000, guid: 3f633ddaa907df24694681e65329d0b8, type: 2}
+  - {fileID: 11400000, guid: eb0ae99a2a03c534b85c1ea2e7b5abce, type: 2}
+  - {fileID: 11400000, guid: 6dc7149c9ae1b1a418017b5912c96a52, type: 2}
+  - {fileID: 11400000, guid: dd9897111459e4c43a00ca1abcc326cd, type: 2}
+  - {fileID: 11400000, guid: 0e2e12a4a75a5e44da14cced8397bb2a, type: 2}
+  - {fileID: 11400000, guid: 2c74e5f6b832d2d4da3a7b567b526bad, type: 2}
+  - {fileID: 11400000, guid: 477fde33ec6cec14b96c5a7bcd18ccf7, type: 2}
+  - {fileID: 11400000, guid: 944e88cbfcfaaab4f9ab9adc4e699468, type: 2}
+  - {fileID: 11400000, guid: 483d6c035392f294692e466a1fa5f656, type: 2}
+  - {fileID: 11400000, guid: f11541d1035d5ff4485491e85b3a12cd, type: 2}
+  - {fileID: 11400000, guid: 9d6d1d98b218aac49812f05f1b66f4db, type: 2}
+  - {fileID: 11400000, guid: 78c357c0b07fc6b4e811015602a70b6e, type: 2}
+  - {fileID: 11400000, guid: 331876b266d6d5a4e88cebeec7a4b6c4, type: 2}
+  - {fileID: 11400000, guid: babd409153832f84b9b43205cf6b3d91, type: 2}
+  - {fileID: 11400000, guid: 9c5681651956ae6468bacb48b9730811, type: 2}
+  - {fileID: 11400000, guid: f6afb710601278b46886339027857537, type: 2}
+  - {fileID: 11400000, guid: 058fc8bc0ae63954a8783a6c675b4218, type: 2}
+  - {fileID: 11400000, guid: 0f7a3bb8fc3e511478d616284ccc90e3, type: 2}
+  - {fileID: 11400000, guid: 9742e57d14ccb404482cf50eb9460996, type: 2}
+  - {fileID: 11400000, guid: 3ad16aa3654a8b642847234167ed9e3f, type: 2}
+  - {fileID: 11400000, guid: 827d8a511fa71bc4fad9934ce9f668a8, type: 2}
+  - {fileID: 11400000, guid: 25d1bf57aa5bb9149a1733cb9b0c5336, type: 2}
+  - {fileID: 11400000, guid: cecf6adba9443f349a10a48d9fdfa723, type: 2}
+  - {fileID: 11400000, guid: be03d2fb45311a246b79d3beb952ca9e, type: 2}
+  - {fileID: 11400000, guid: 4a87b8c080d0fb247b0b99b182c7c731, type: 2}
+  - {fileID: 11400000, guid: 758a32b1cb2e5624dbfb2116c280e360, type: 2}
+  - {fileID: 11400000, guid: 23c8cef5c08383b429a28e69323c8ce1, type: 2}
+  - {fileID: 11400000, guid: e08ed876c4217174aba3b85b2ac9c544, type: 2}
+  - {fileID: 11400000, guid: 7739ac3ac8e9e10468619ee4a5019877, type: 2}
+  - {fileID: 11400000, guid: ae8f439d79e0bf6449ea5712ea1278ac, type: 2}
+  - {fileID: 11400000, guid: 6bddab185fe24a448b08e6dc73a41ec3, type: 2}
+  - {fileID: 11400000, guid: 105f7f4a32ea67b47bf3d984c1c75193, type: 2}
+  - {fileID: 11400000, guid: 6aa981aa00bb1724d887b81770738768, type: 2}
+  - {fileID: 11400000, guid: 542abf295e39f434499052ab181f9222, type: 2}
+  - {fileID: 11400000, guid: 8f6fca889d63e2c41a9ef2a647f6144f, type: 2}
+  - {fileID: 11400000, guid: 1c40914cbaf0e48428d795c05db818b8, type: 2}
+  - {fileID: 11400000, guid: 13c359a43eda2ed4496c3192b30e7df5, type: 2}
+  - {fileID: 11400000, guid: e98c2cfcc103ea24f9b4b73722136ba5, type: 2}
+  - {fileID: 11400000, guid: e057ae8866fae8540a485bec40f1ff96, type: 2}
+  requiresUnlock: sunken_ruins
+  depthTier: 0

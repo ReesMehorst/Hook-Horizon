@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_coral_reef
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: coral_reef
+  displayName: Coral Reef
+  elevation: 0.32
+  temperature: 0.85
+  moisture: 1
+  variance: 0.2
+  climateWeight: 1
+  isWater: 1
+  tileColor: {r: 0.2, g: 0.72, b: 0.75, a: 1}
+  fish:
+  - {fileID: 11400000, guid: 542944aa6f0f6684998c25e926a928e1, type: 2}
+  - {fileID: 11400000, guid: 3064f8e2bf2abd748b9b700e41893c16, type: 2}
+  - {fileID: 11400000, guid: 0d0162ea071dc434aa6e52938fb80cb7, type: 2}
+  - {fileID: 11400000, guid: d4a5cc13be759af4e96ea90b41132a63, type: 2}
+  - {fileID: 11400000, guid: 7fa6719f01bd3894397c99c5f4ef20c4, type: 2}
+  - {fileID: 11400000, guid: c643d5748d6244d4abf19a0d0cc509f4, type: 2}
+  - {fileID: 11400000, guid: 2bbb6ce06c248a248b1476878d203c72, type: 2}
+  - {fileID: 11400000, guid: efd235af8bf82d741b3a25d8d58f4cb8, type: 2}
+  - {fileID: 11400000, guid: 5af1a5fe378ed804b87671b0dc9916e4, type: 2}
+  - {fileID: 11400000, guid: 76655c9400e86eb41aa97d3a0081840f, type: 2}
+  - {fileID: 11400000, guid: bc5c4ad8f8a04624ca1c04c8feec771c, type: 2}
+  - {fileID: 11400000, guid: baa6c7bdb7e729f46be5ca7dd7861a40, type: 2}
+  - {fileID: 11400000, guid: 58faa7c4c82754f439ccbeb7c1930ff2, type: 2}
+  - {fileID: 11400000, guid: 7cec1fac3a159e84a92564730cdd2bbd, type: 2}
+  - {fileID: 11400000, guid: f46da582edff2854d83508181e188523, type: 2}
+  - {fileID: 11400000, guid: 0ee356ebe5ef0b14cafb28de76e3d891, type: 2}
+  - {fileID: 11400000, guid: b34dbd365cd3e1e489493811f7938de6, type: 2}
+  - {fileID: 11400000, guid: ce275e88ece3c4548a15449fcd2a1c2e, type: 2}
+  - {fileID: 11400000, guid: 378f738facee1ac4687c247216cc0af5, type: 2}
+  - {fileID: 11400000, guid: 73f1b2df6445b6d44895fea707d4eee8, type: 2}
+  - {fileID: 11400000, guid: 4e5259bb485b33b49ade0b0cd99ec9a8, type: 2}
+  - {fileID: 11400000, guid: fba0fb41c22248c4b882072ff352df6c, type: 2}
+  - {fileID: 11400000, guid: 25d1bf57aa5bb9149a1733cb9b0c5336, type: 2}
+  - {fileID: 11400000, guid: 747640f65d6ce8a49ad407319b8083a1, type: 2}
+  - {fileID: 11400000, guid: 918a6c0c7bdd3b34eb482331f4fb0232, type: 2}
+  - {fileID: 11400000, guid: 758a32b1cb2e5624dbfb2116c280e360, type: 2}
+  - {fileID: 11400000, guid: fb22bb1b52515714bbb5c9ea6b379dd8, type: 2}
+  - {fileID: 11400000, guid: 1bcba6564721b9f44a3f4f8f34906606, type: 2}
+  - {fileID: 11400000, guid: be03d2fb45311a246b79d3beb952ca9e, type: 2}
+  - {fileID: 11400000, guid: 4a87b8c080d0fb247b0b99b182c7c731, type: 2}
+  - {fileID: 11400000, guid: c4606384756fed348b6d459b2b962f2c, type: 2}
+  - {fileID: 11400000, guid: 51fe84a530b8b8b459681ae0ffa1179c, type: 2}
+  - {fileID: 11400000, guid: 5bfa9cb2a3a715748a6ae73d1cb0cc65, type: 2}
+  - {fileID: 11400000, guid: 27cfb732364be234b8bb0f5270986cae, type: 2}
+  - {fileID: 11400000, guid: ce9b4e6436e648547a8949fd237e9a7d, type: 2}
+  - {fileID: 11400000, guid: 4bc65a97d4f8d73469cb99ea6bd3e764, type: 2}
+  - {fileID: 11400000, guid: f11541d1035d5ff4485491e85b3a12cd, type: 2}
+  - {fileID: 11400000, guid: 8dc9f7622e42d5644908f2f2dcfddb73, type: 2}
+  - {fileID: 11400000, guid: 13c359a43eda2ed4496c3192b30e7df5, type: 2}
+  - {fileID: 11400000, guid: 3ad16aa3654a8b642847234167ed9e3f, type: 2}
+  - {fileID: 11400000, guid: 87d37eb2dc60a484388f202378bf7c25, type: 2}
+  - {fileID: 11400000, guid: 2f862f00257ba044fa467c4996d39b9e, type: 2}
+  - {fileID: 11400000, guid: 982053455eb8d3447a54c61262390c7a, type: 2}
+  - {fileID: 11400000, guid: 7f41106e7901c1246a726ae7c9a36e8d, type: 2}
+  - {fileID: 11400000, guid: 172023caef15bda44ae3260c13c3b747, type: 2}
+  - {fileID: 11400000, guid: 38729e3c67c750b41bf4e83670e4f520, type: 2}
+  - {fileID: 11400000, guid: a12ddcf22b229b643a149eb17e17f2de, type: 2}
+  - {fileID: 11400000, guid: 5308f562034d810499e76581a26c4392, type: 2}
+  - {fileID: 11400000, guid: 06449e49fe61de648ba1c615ea7a81ed, type: 2}
+  requiresUnlock: 
+  depthTier: 0

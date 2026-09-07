@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_starfall_crater
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: starfall_crater
+  displayName: Starfall Crater
+  elevation: 0.6
+  temperature: 0.4
+  moisture: 0.5
+  variance: 0.9
+  climateWeight: 0.05
+  isWater: 1
+  tileColor: {r: 0.35, g: 0.3, b: 0.55, a: 1}
+  fish:
+  - {fileID: 11400000, guid: ff7203925f0d3e644889d8b1219f3c93, type: 2}
+  - {fileID: 11400000, guid: cb71dfa38f53b2b4086d14fc94a019a3, type: 2}
+  - {fileID: 11400000, guid: 435f80017cb2bb743896071a795963a5, type: 2}
+  - {fileID: 11400000, guid: 4bc023da84f6049449782c4377c07af8, type: 2}
+  - {fileID: 11400000, guid: 2c013f07ffde0ee46908dc771285f05e, type: 2}
+  - {fileID: 11400000, guid: 2ff68af378177aa47b7d813b1f252418, type: 2}
+  - {fileID: 11400000, guid: a84c9aeb67233f045951557efd8ac6ef, type: 2}
+  - {fileID: 11400000, guid: 67baeda787107914d94c284d2c38549a, type: 2}
+  - {fileID: 11400000, guid: 05bef513cc3c5af41ada63931f2e8bb5, type: 2}
+  - {fileID: 11400000, guid: f519e10914de80d499b3b21ffabf8611, type: 2}
+  - {fileID: 11400000, guid: 82b1a0709e5aa3c4589d3996b38e086e, type: 2}
+  - {fileID: 11400000, guid: ddf952603833b7a40a904070fcc76eca, type: 2}
+  - {fileID: 11400000, guid: 9da5ecb291631a545a6c4e7a4a35b9c7, type: 2}
+  - {fileID: 11400000, guid: c99aeb28bf3d4d348bf8502d00eec96f, type: 2}
+  - {fileID: 11400000, guid: b2515f85306e47d4f8fd391159ee61da, type: 2}
+  - {fileID: 11400000, guid: 9b0b33d4d1791654f813f708b4274a37, type: 2}
+  - {fileID: 11400000, guid: 8d0ef554dd8d3d74c85fd0546fcdbcc5, type: 2}
+  - {fileID: 11400000, guid: ae1e65bc05d21bf45ab230857d864f13, type: 2}
+  - {fileID: 11400000, guid: 97a25595745b69d4ea34f8d1609877f2, type: 2}
+  - {fileID: 11400000, guid: 3e58ff652c8f2584788efed27b0b48c7, type: 2}
+  - {fileID: 11400000, guid: 8b27c1be4bc2dcd4daa92cf3915fb5c0, type: 2}
+  - {fileID: 11400000, guid: 7898281456bf12e4a898256642c90829, type: 2}
+  - {fileID: 11400000, guid: ab612a6cba386b24abc462e86e9d080a, type: 2}
+  - {fileID: 11400000, guid: 0fc8b3b8bc54bf04881ca29f00e514aa, type: 2}
+  - {fileID: 11400000, guid: 5697646ae7f85fc4f930a2f38296fc66, type: 2}
+  - {fileID: 11400000, guid: 261bdf532945fc645a0ef063b0eae90a, type: 2}
+  - {fileID: 11400000, guid: 3e0204f007086e340946f0b19ee14131, type: 2}
+  - {fileID: 11400000, guid: d48a59542854be94882322fcb78248a8, type: 2}
+  - {fileID: 11400000, guid: 75ea1f0456305b4419d7339ea7cf8d06, type: 2}
+  - {fileID: 11400000, guid: 9260f069bdf699049a00457451e5251c, type: 2}
+  - {fileID: 11400000, guid: dba21a9a3caad674192a83256804a56a, type: 2}
+  - {fileID: 11400000, guid: 006f8423151d73243965927c57e111b0, type: 2}
+  - {fileID: 11400000, guid: 50b52693a8a7c7445a6309cd49738380, type: 2}
+  - {fileID: 11400000, guid: c5905129c26562a4892d64406b981991, type: 2}
+  - {fileID: 11400000, guid: 8aead388c0473b043a09358bb7e07fc1, type: 2}
+  - {fileID: 11400000, guid: e746d2b984e52874b916d2f49ab28901, type: 2}
+  - {fileID: 11400000, guid: d4a1df79e5758424cb3ab0fefb0c1693, type: 2}
+  - {fileID: 11400000, guid: 8d6eb37f8f633e842a020b285eefa0dc, type: 2}
+  - {fileID: 11400000, guid: c895f30e4adb9cd41af2b0c03939b725, type: 2}
+  - {fileID: 11400000, guid: 36c3ca131aef98a44a1da3d26317c28e, type: 2}
+  requiresUnlock: starfall_crater
+  depthTier: 0

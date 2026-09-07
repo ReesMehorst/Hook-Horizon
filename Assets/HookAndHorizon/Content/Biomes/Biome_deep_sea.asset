@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_deep_sea
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: deep_sea
+  displayName: Deep Sea
+  elevation: 0.09
+  temperature: 0.35
+  moisture: 1
+  variance: 0.45
+  climateWeight: 0.6
+  isWater: 1
+  tileColor: {r: 0.05, g: 0.14, b: 0.38, a: 1}
+  fish:
+  - {fileID: 11400000, guid: f279564ce2bbd7e42ad59d3c57f07840, type: 2}
+  - {fileID: 11400000, guid: 28b6a215033eb4d458b0ebca8066cbad, type: 2}
+  - {fileID: 11400000, guid: dba5e6e4e663bcf48bbdc06a2e46793b, type: 2}
+  - {fileID: 11400000, guid: 9451558f071c6da4dacf8cc03c875ed4, type: 2}
+  - {fileID: 11400000, guid: 04d52864650f281408e378d9c77acc55, type: 2}
+  - {fileID: 11400000, guid: 22ca1d82100796448bb7617d2668ef76, type: 2}
+  - {fileID: 11400000, guid: 9437398589829034ba95b2188e7374df, type: 2}
+  - {fileID: 11400000, guid: 55eeb0c33b2d92d49a93e449b7c3a3e2, type: 2}
+  - {fileID: 11400000, guid: 0f5b578853d4e114a8a06646af4a237f, type: 2}
+  - {fileID: 11400000, guid: 472b9a03c8f6b374c9f6525ce180edf9, type: 2}
+  - {fileID: 11400000, guid: 78491e71d94f0744ea6b017f5043e06a, type: 2}
+  - {fileID: 11400000, guid: 9916d6e66d8ac3e41bd654047fea5460, type: 2}
+  - {fileID: 11400000, guid: c43cc49b8ba85b1438cc516cf468ea4c, type: 2}
+  - {fileID: 11400000, guid: 024118a92c1853b4a864e2857fc329fe, type: 2}
+  - {fileID: 11400000, guid: dd7ea759863af824d83bf6a5fa99cb5d, type: 2}
+  - {fileID: 11400000, guid: cc91a5c59bc0fb94fb19cca7b6992c54, type: 2}
+  - {fileID: 11400000, guid: fba0fb41c22248c4b882072ff352df6c, type: 2}
+  - {fileID: 11400000, guid: 78c357c0b07fc6b4e811015602a70b6e, type: 2}
+  - {fileID: 11400000, guid: 0f7a3bb8fc3e511478d616284ccc90e3, type: 2}
+  - {fileID: 11400000, guid: 04d69bf021b371f4d8647c6895e2103b, type: 2}
+  - {fileID: 11400000, guid: b06108d837524444d88b951ac9cd3834, type: 2}
+  - {fileID: 11400000, guid: c7a9551ac048ca542bff988a747aca19, type: 2}
+  requiresUnlock: 
+  depthTier: 2

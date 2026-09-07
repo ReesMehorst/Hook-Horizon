@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_crystal_caverns
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: crystal_caverns
+  displayName: Crystal Caverns
+  elevation: 0.35
+  temperature: 0.4
+  moisture: 0.55
+  variance: 0.75
+  climateWeight: 0.5
+  isWater: 1
+  tileColor: {r: 0.45, g: 0.7, b: 0.85, a: 1}
+  fish:
+  - {fileID: 11400000, guid: c2c61c9de42444c4eba97102fdc9a0a0, type: 2}
+  - {fileID: 11400000, guid: dad93863b8a29a44bb823d7c32602958, type: 2}
+  - {fileID: 11400000, guid: 3529e493ff83d3c44885a18881362652, type: 2}
+  - {fileID: 11400000, guid: 97fe7385aa4dc2f49aca6d17fbc569c0, type: 2}
+  - {fileID: 11400000, guid: 495d6993d98fced40abf49b1bd87f7bd, type: 2}
+  - {fileID: 11400000, guid: 247e7b303c2855a4ab650e9acfb5b055, type: 2}
+  - {fileID: 11400000, guid: 8bd11f664f91b3f4aa9f3e261d8320dc, type: 2}
+  - {fileID: 11400000, guid: 7faf0e830bc0b5b42aa513cd8fce540d, type: 2}
+  - {fileID: 11400000, guid: 44d5440c75b7586479c34bfcb93eca2f, type: 2}
+  - {fileID: 11400000, guid: 7d0c76fef5e9aab4eb357bdf8abe694f, type: 2}
+  - {fileID: 11400000, guid: dba21a9a3caad674192a83256804a56a, type: 2}
+  - {fileID: 11400000, guid: 8aead388c0473b043a09358bb7e07fc1, type: 2}
+  - {fileID: 11400000, guid: 3cd8b5aad6f70e348be7c5cebae5550e, type: 2}
+  - {fileID: 11400000, guid: 6065d4928f2f08e45abe4ca2cda655d9, type: 2}
+  - {fileID: 11400000, guid: eb6c33d62768c0c42a06a013ba8f114e, type: 2}
+  - {fileID: 11400000, guid: d48a59542854be94882322fcb78248a8, type: 2}
+  - {fileID: 11400000, guid: 5697646ae7f85fc4f930a2f38296fc66, type: 2}
+  - {fileID: 11400000, guid: 938f06cb030b23f408e24c09f697df30, type: 2}
+  - {fileID: 11400000, guid: de974faad565f8f47b465dafbf454b2f, type: 2}
+  - {fileID: 11400000, guid: 43ceb311102afc3409cceec21ee2bfb7, type: 2}
+  - {fileID: 11400000, guid: 75aa792fd10407e40baae1863cd7b2b7, type: 2}
+  - {fileID: 11400000, guid: ca62acfb4529c4c4e91bedeb68dfd83a, type: 2}
+  - {fileID: 11400000, guid: 7c1a8f435bc8b7b45b6be9b7df0a005c, type: 2}
+  - {fileID: 11400000, guid: 827d8a511fa71bc4fad9934ce9f668a8, type: 2}
+  - {fileID: 11400000, guid: 97a25595745b69d4ea34f8d1609877f2, type: 2}
+  - {fileID: 11400000, guid: 4a7d427be574f584c828faab047c74f7, type: 2}
+  - {fileID: 11400000, guid: 9da5ecb291631a545a6c4e7a4a35b9c7, type: 2}
+  - {fileID: 11400000, guid: c99aeb28bf3d4d348bf8502d00eec96f, type: 2}
+  - {fileID: 11400000, guid: 50b52693a8a7c7445a6309cd49738380, type: 2}
+  - {fileID: 11400000, guid: 5e36462b68bede640b742d9c62f93a4d, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 8d6eb37f8f633e842a020b285eefa0dc, type: 2}
+  - {fileID: 11400000, guid: be03d2fb45311a246b79d3beb952ca9e, type: 2}
+  - {fileID: 11400000, guid: c895f30e4adb9cd41af2b0c03939b725, type: 2}
+  - {fileID: 11400000, guid: d21f5886827d30c41a5245c9999177dd, type: 2}
+  - {fileID: 11400000, guid: 3f83b1764930e644f9c060743db6c45e, type: 2}
+  - {fileID: 11400000, guid: c5905129c26562a4892d64406b981991, type: 2}
+  - {fileID: 11400000, guid: 4c8aa77bab45b864ba49e48e59f6a01d, type: 2}
+  - {fileID: 11400000, guid: 0c3af5ad7a5a32746a4f091666de5029, type: 2}
+  - {fileID: 11400000, guid: eb15daa83ba9735459b9ee911221b663, type: 2}
+  requiresUnlock: 
+  depthTier: 0

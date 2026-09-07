@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 112d4a488e3f44ca91e46bb38522e413, type: 3}
+  m_Name: Boat_Dinghy
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BoatData
+  displayName: Dinghy
+  moveSpeed: 4.5
+  maxDepthTier: 1
+  price: 150
+  modelPrefab: {fileID: 0}
+  lureSpeedBonus: 0
+  luckBonus: 0
+  reactionWindowBonus: 0
+  qteForgiveness: 0

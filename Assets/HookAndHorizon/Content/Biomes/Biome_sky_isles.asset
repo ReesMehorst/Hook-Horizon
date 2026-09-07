@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_sky_isles
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: sky_isles
+  displayName: Sky Isles
+  elevation: 0.95
+  temperature: 0.55
+  moisture: 0.6
+  variance: 0.9
+  climateWeight: 0.05
+  isWater: 1
+  tileColor: {r: 0.7, g: 0.85, b: 0.95, a: 1}
+  fish:
+  - {fileID: 11400000, guid: b520dfa4b00b685409fb89608446842b, type: 2}
+  - {fileID: 11400000, guid: 756435ee50e5af645b905a912295588b, type: 2}
+  - {fileID: 11400000, guid: 269341f99cbab074c8bf2f886ed0ee10, type: 2}
+  - {fileID: 11400000, guid: 6eb542eabf6ac8b4687eba878695dbea, type: 2}
+  - {fileID: 11400000, guid: 33096660e1659144bb75ffc9d1554d6f, type: 2}
+  - {fileID: 11400000, guid: 8ec919c2720b2a94d83768b9d6c49d43, type: 2}
+  - {fileID: 11400000, guid: 8053fbf52868b8549a013cc05ac13baa, type: 2}
+  - {fileID: 11400000, guid: 14ac1193c6203b940b2d13ec0fb978ee, type: 2}
+  - {fileID: 11400000, guid: ba800c51d420fc84bb42433645c1d1de, type: 2}
+  - {fileID: 11400000, guid: 7f463e62818109744bf9283d877dd2e2, type: 2}
+  - {fileID: 11400000, guid: 9b0b33d4d1791654f813f708b4274a37, type: 2}
+  - {fileID: 11400000, guid: d4a1df79e5758424cb3ab0fefb0c1693, type: 2}
+  - {fileID: 11400000, guid: eb15daa83ba9735459b9ee911221b663, type: 2}
+  - {fileID: 11400000, guid: 43ceb311102afc3409cceec21ee2bfb7, type: 2}
+  - {fileID: 11400000, guid: c895f30e4adb9cd41af2b0c03939b725, type: 2}
+  - {fileID: 11400000, guid: 7e220763e16b3fa459c8c179620187ec, type: 2}
+  - {fileID: 11400000, guid: 938f06cb030b23f408e24c09f697df30, type: 2}
+  - {fileID: 11400000, guid: bfe3a4b7cba4ecc4f8f5a0670cfa5523, type: 2}
+  - {fileID: 11400000, guid: 9ea82ebd3791c3444895faf762ff5528, type: 2}
+  - {fileID: 11400000, guid: a982e37fc76acae4c912b45414aab7c8, type: 2}
+  - {fileID: 11400000, guid: d85dd3e3154cb354ba98f6cf1393c2ca, type: 2}
+  - {fileID: 11400000, guid: daa0e4019225c604d91ab706cc2fae7c, type: 2}
+  - {fileID: 11400000, guid: 627acbb1fa155c5458720aa7f044035d, type: 2}
+  - {fileID: 11400000, guid: be03d2fb45311a246b79d3beb952ca9e, type: 2}
+  - {fileID: 11400000, guid: f15c85b8741a34a41adf9bb992fe7908, type: 2}
+  - {fileID: 11400000, guid: 5e36462b68bede640b742d9c62f93a4d, type: 2}
+  - {fileID: 11400000, guid: c7a9551ac048ca542bff988a747aca19, type: 2}
+  - {fileID: 11400000, guid: b2515f85306e47d4f8fd391159ee61da, type: 2}
+  - {fileID: 11400000, guid: 2b60ce5fd7b62ca49a45422366da23d1, type: 2}
+  - {fileID: 11400000, guid: 4db800109ba2e27488c12324c85119e9, type: 2}
+  - {fileID: 11400000, guid: 68a6997e630b36a48848c15256f86f65, type: 2}
+  - {fileID: 11400000, guid: d48a59542854be94882322fcb78248a8, type: 2}
+  - {fileID: 11400000, guid: 7898281456bf12e4a898256642c90829, type: 2}
+  - {fileID: 11400000, guid: 99efefa698965374cbd699657859faa1, type: 2}
+  - {fileID: 11400000, guid: 7e06c4a8dd9d2a048b008bd182416eba, type: 2}
+  - {fileID: 11400000, guid: 0fc8b3b8bc54bf04881ca29f00e514aa, type: 2}
+  - {fileID: 11400000, guid: e1bc95369d220ae4fa179b97021831cd, type: 2}
+  - {fileID: 11400000, guid: 04d69bf021b371f4d8647c6895e2103b, type: 2}
+  - {fileID: 11400000, guid: 5d3c877a639dfe141a361a410f40c97f, type: 2}
+  - {fileID: 11400000, guid: 943eac769e274c24eac637135450f29d, type: 2}
+  requiresUnlock: sky_isles
+  depthTier: 0

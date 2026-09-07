@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_sunlit_meadow
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: sunlit_meadow
+  displayName: Sunlit Meadow
+  elevation: 0.42
+  temperature: 0.68
+  moisture: 0.6
+  variance: 0.2
+  climateWeight: 1
+  isWater: 1
+  tileColor: {r: 0.55, g: 0.8, b: 0.45, a: 1}
+  fish:
+  - {fileID: 11400000, guid: fc5362a3f16936b43bbf26d238d3976d, type: 2}
+  - {fileID: 11400000, guid: df085d3e4257a6d46855332de9aa13fb, type: 2}
+  - {fileID: 11400000, guid: 4053bc96bc782cc46b387763984e7719, type: 2}
+  - {fileID: 11400000, guid: 1afb3628e8e6f8b4daebd96101f9e353, type: 2}
+  - {fileID: 11400000, guid: d3a55fbf6fd606641bf5c48644bfa97c, type: 2}
+  - {fileID: 11400000, guid: 1ddbe32c6f33e7e49aaf01a94d1b397a, type: 2}
+  - {fileID: 11400000, guid: a99968c13375bb04eb635f449c98dd8c, type: 2}
+  - {fileID: 11400000, guid: ad82832a9e9c77946a392ed1e47945f5, type: 2}
+  - {fileID: 11400000, guid: 05d15a2db43353b479418f84b88e5095, type: 2}
+  - {fileID: 11400000, guid: bda8ca40866709340b2524d30c4344b3, type: 2}
+  - {fileID: 11400000, guid: ddd98cccf78d6f84ab0cda73d4522fff, type: 2}
+  - {fileID: 11400000, guid: 50b52693a8a7c7445a6309cd49738380, type: 2}
+  - {fileID: 11400000, guid: 431ef7dab97bcb14c9c7fd4201f536d1, type: 2}
+  - {fileID: 11400000, guid: 43ceb311102afc3409cceec21ee2bfb7, type: 2}
+  - {fileID: 11400000, guid: 66043865c11837e4783554132307fc8d, type: 2}
+  - {fileID: 11400000, guid: 8b27c1be4bc2dcd4daa92cf3915fb5c0, type: 2}
+  - {fileID: 11400000, guid: 3e58ff652c8f2584788efed27b0b48c7, type: 2}
+  - {fileID: 11400000, guid: d48a59542854be94882322fcb78248a8, type: 2}
+  - {fileID: 11400000, guid: 2b60ce5fd7b62ca49a45422366da23d1, type: 2}
+  - {fileID: 11400000, guid: e0383a66ac977ce4f8606c9a9445877a, type: 2}
+  - {fileID: 11400000, guid: a982e37fc76acae4c912b45414aab7c8, type: 2}
+  - {fileID: 11400000, guid: 68a6997e630b36a48848c15256f86f65, type: 2}
+  - {fileID: 11400000, guid: 4db800109ba2e27488c12324c85119e9, type: 2}
+  - {fileID: 11400000, guid: 943eac769e274c24eac637135450f29d, type: 2}
+  - {fileID: 11400000, guid: 04d69bf021b371f4d8647c6895e2103b, type: 2}
+  - {fileID: 11400000, guid: 5e36462b68bede640b742d9c62f93a4d, type: 2}
+  - {fileID: 11400000, guid: d4a1df79e5758424cb3ab0fefb0c1693, type: 2}
+  - {fileID: 11400000, guid: 75ea1f0456305b4419d7339ea7cf8d06, type: 2}
+  - {fileID: 11400000, guid: 5d3c877a639dfe141a361a410f40c97f, type: 2}
+  - {fileID: 11400000, guid: 8296e482c2f726a4dac756e7a73fb03f, type: 2}
+  - {fileID: 11400000, guid: be03d2fb45311a246b79d3beb952ca9e, type: 2}
+  - {fileID: 11400000, guid: 006f8423151d73243965927c57e111b0, type: 2}
+  - {fileID: 11400000, guid: 16d8dc87b354edd409d8f23faff59b99, type: 2}
+  - {fileID: 11400000, guid: e1bc95369d220ae4fa179b97021831cd, type: 2}
+  - {fileID: 11400000, guid: 4c8aa77bab45b864ba49e48e59f6a01d, type: 2}
+  - {fileID: 11400000, guid: d21f5886827d30c41a5245c9999177dd, type: 2}
+  - {fileID: 11400000, guid: c895f30e4adb9cd41af2b0c03939b725, type: 2}
+  - {fileID: 11400000, guid: 6cc2964323179b64290c01a1223e3377, type: 2}
+  - {fileID: 11400000, guid: ae1e65bc05d21bf45ab230857d864f13, type: 2}
+  - {fileID: 11400000, guid: 7898281456bf12e4a898256642c90829, type: 2}
+  requiresUnlock: 
+  depthTier: 0

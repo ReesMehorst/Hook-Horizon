@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_ember_highlands
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: ember_highlands
+  displayName: Ember Highlands
+  elevation: 0.7
+  temperature: 0.95
+  moisture: 0.2
+  variance: 0.55
+  climateWeight: 0.8
+  isWater: 1
+  tileColor: {r: 0.75, g: 0.35, b: 0.2, a: 1}
+  fish:
+  - {fileID: 11400000, guid: 63368fbdfc893ed45aa8773360b7b98d, type: 2}
+  - {fileID: 11400000, guid: 2bfd4a275ec008a4ea01778fb43b8cfc, type: 2}
+  - {fileID: 11400000, guid: b4ba8f501b019da44ae930b7295a5a35, type: 2}
+  - {fileID: 11400000, guid: ccf7cff59ef088b4e91a47bcdce651d4, type: 2}
+  - {fileID: 11400000, guid: c3c1eaa7787b9a6498acce7b62fd1f2d, type: 2}
+  - {fileID: 11400000, guid: 6327410273de0c1448f70087ab84001e, type: 2}
+  - {fileID: 11400000, guid: a14625c646dc940418c34afcb76b9719, type: 2}
+  - {fileID: 11400000, guid: a574dd9de8caae4459bedf502313b497, type: 2}
+  - {fileID: 11400000, guid: 2a986dfe9fe18a440827a70a2b18340f, type: 2}
+  - {fileID: 11400000, guid: fb17fc37d4596204abde9009d69a0077, type: 2}
+  - {fileID: 11400000, guid: 66043865c11837e4783554132307fc8d, type: 2}
+  - {fileID: 11400000, guid: 7898281456bf12e4a898256642c90829, type: 2}
+  - {fileID: 11400000, guid: 2b60ce5fd7b62ca49a45422366da23d1, type: 2}
+  - {fileID: 11400000, guid: f15c85b8741a34a41adf9bb992fe7908, type: 2}
+  - {fileID: 11400000, guid: 5e36462b68bede640b742d9c62f93a4d, type: 2}
+  - {fileID: 11400000, guid: 97a25595745b69d4ea34f8d1609877f2, type: 2}
+  - {fileID: 11400000, guid: 006f8423151d73243965927c57e111b0, type: 2}
+  - {fileID: 11400000, guid: be03d2fb45311a246b79d3beb952ca9e, type: 2}
+  - {fileID: 11400000, guid: cd4019e6c40c2714285d6fc522e0b15f, type: 2}
+  - {fileID: 11400000, guid: 04d69bf021b371f4d8647c6895e2103b, type: 2}
+  - {fileID: 11400000, guid: 431ef7dab97bcb14c9c7fd4201f536d1, type: 2}
+  - {fileID: 11400000, guid: ae1e65bc05d21bf45ab230857d864f13, type: 2}
+  - {fileID: 11400000, guid: f6a9053292f0bc4499cebc8932741b61, type: 2}
+  - {fileID: 11400000, guid: 7e06c4a8dd9d2a048b008bd182416eba, type: 2}
+  - {fileID: 11400000, guid: 8d0ef554dd8d3d74c85fd0546fcdbcc5, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: d21f5886827d30c41a5245c9999177dd, type: 2}
+  - {fileID: 11400000, guid: 3cd8b5aad6f70e348be7c5cebae5550e, type: 2}
+  - {fileID: 11400000, guid: 43ceb311102afc3409cceec21ee2bfb7, type: 2}
+  - {fileID: 11400000, guid: 3f3c40d791143fc4ca8dad773cc69061, type: 2}
+  - {fileID: 11400000, guid: c2f213f5a49e5c84181b8f064009cc15, type: 2}
+  - {fileID: 11400000, guid: 74cd58f308d254e4ea15316530462014, type: 2}
+  - {fileID: 11400000, guid: 9260f069bdf699049a00457451e5251c, type: 2}
+  - {fileID: 11400000, guid: 4db800109ba2e27488c12324c85119e9, type: 2}
+  - {fileID: 11400000, guid: d85dd3e3154cb354ba98f6cf1393c2ca, type: 2}
+  - {fileID: 11400000, guid: 50b52693a8a7c7445a6309cd49738380, type: 2}
+  - {fileID: 11400000, guid: eb15daa83ba9735459b9ee911221b663, type: 2}
+  - {fileID: 11400000, guid: 4a7d427be574f584c828faab047c74f7, type: 2}
+  - {fileID: 11400000, guid: d48a59542854be94882322fcb78248a8, type: 2}
+  - {fileID: 11400000, guid: 8d6eb37f8f633e842a020b285eefa0dc, type: 2}
+  requiresUnlock: 
+  depthTier: 0

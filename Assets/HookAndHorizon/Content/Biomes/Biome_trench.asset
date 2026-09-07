@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_trench
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: trench
+  displayName: Trench
+  elevation: 0.02
+  temperature: 0.28
+  moisture: 1
+  variance: 0.6
+  climateWeight: 0.25
+  isWater: 1
+  tileColor: {r: 0.02, g: 0.03, b: 0.12, a: 1}
+  fish:
+  - {fileID: 11400000, guid: c5e533d158294214e979f2ef07ff041e, type: 2}
+  - {fileID: 11400000, guid: 62fc2be06b9038740824c2da0435e934, type: 2}
+  - {fileID: 11400000, guid: ac069a308ed21b94ca9ebfaf689b1a74, type: 2}
+  - {fileID: 11400000, guid: 534db16f75324ea4dbfae1a060e4ff42, type: 2}
+  - {fileID: 11400000, guid: 90c2a625a3a60ff48981fd53c1adcceb, type: 2}
+  - {fileID: 11400000, guid: e2e85d48446735c418d08c51dbf3dc20, type: 2}
+  - {fileID: 11400000, guid: ca9e35a9ac1756742b4d625b9cd4b81f, type: 2}
+  - {fileID: 11400000, guid: b2b4d921085d4874b8aeaa3582049be1, type: 2}
+  - {fileID: 11400000, guid: 28b079efbf1c75b41bb3e12ebedc3fd4, type: 2}
+  - {fileID: 11400000, guid: b447c2c60c6622c43acb9c660b46b823, type: 2}
+  - {fileID: 11400000, guid: 78491e71d94f0744ea6b017f5043e06a, type: 2}
+  - {fileID: 11400000, guid: c43cc49b8ba85b1438cc516cf468ea4c, type: 2}
+  - {fileID: 11400000, guid: 024118a92c1853b4a864e2857fc329fe, type: 2}
+  - {fileID: 11400000, guid: cc91a5c59bc0fb94fb19cca7b6992c54, type: 2}
+  - {fileID: 11400000, guid: 9916d6e66d8ac3e41bd654047fea5460, type: 2}
+  - {fileID: 11400000, guid: dd7ea759863af824d83bf6a5fa99cb5d, type: 2}
+  - {fileID: 11400000, guid: d79c70507eabf97439c024e9a3ff8117, type: 2}
+  - {fileID: 11400000, guid: 1d76d3021b26e104e844488209d63c56, type: 2}
+  - {fileID: 11400000, guid: 839d6818b98587b4a8123cd7fe1f54e4, type: 2}
+  - {fileID: 11400000, guid: 16d8dc87b354edd409d8f23faff59b99, type: 2}
+  - {fileID: 11400000, guid: d85dd3e3154cb354ba98f6cf1393c2ca, type: 2}
+  - {fileID: 11400000, guid: 3be521d20a5f2994990ac23fcb14faec, type: 2}
+  requiresUnlock: 
+  depthTier: 3

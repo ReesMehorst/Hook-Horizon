@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b20adb7a4a0ab7e44955df50ec048d42, type: 3}
+  m_Name: Biome_enchanted_river
+  m_EditorClassIdentifier: HookHorizon::HookHorizon.Unity.Data.BiomeData
+  id: enchanted_river
+  displayName: Enchanted River
+  elevation: 0.4
+  temperature: 0.55
+  moisture: 0.85
+  variance: 0.8
+  climateWeight: 0.5
+  isWater: 1
+  tileColor: {r: 0.3, g: 0.62, b: 0.7, a: 1}
+  fish:
+  - {fileID: 11400000, guid: d2a5c1d1872fdb948b63e8018342ed89, type: 2}
+  - {fileID: 11400000, guid: db3f03423fea2a3429934683d5b4c5e8, type: 2}
+  - {fileID: 11400000, guid: f31dbefd9cdd5fb4cbcf249005d3b0ea, type: 2}
+  - {fileID: 11400000, guid: 0928214311d560b4e89111caa5d99a23, type: 2}
+  - {fileID: 11400000, guid: 12797c92218b9ae42bb47cbcc5dc6435, type: 2}
+  - {fileID: 11400000, guid: 30eafdaeda66a284fa7855701a233bb7, type: 2}
+  - {fileID: 11400000, guid: cdf952aa8e1d1ee4a95adf3a1efdf6f1, type: 2}
+  - {fileID: 11400000, guid: 9daf4ab79f56f3a49bf2268e5ae7aacb, type: 2}
+  - {fileID: 11400000, guid: 5f8ffc4ed24b5ad4a9c9e8d5b99e1bf4, type: 2}
+  - {fileID: 11400000, guid: f20aad35ffbc97e4bb1e9ade5531f49d, type: 2}
+  - {fileID: 11400000, guid: 9260f069bdf699049a00457451e5251c, type: 2}
+  - {fileID: 11400000, guid: 8d0ef554dd8d3d74c85fd0546fcdbcc5, type: 2}
+  - {fileID: 11400000, guid: 5d3c877a639dfe141a361a410f40c97f, type: 2}
+  - {fileID: 11400000, guid: d4a1df79e5758424cb3ab0fefb0c1693, type: 2}
+  - {fileID: 11400000, guid: e1bc95369d220ae4fa179b97021831cd, type: 2}
+  - {fileID: 11400000, guid: de974faad565f8f47b465dafbf454b2f, type: 2}
+  - {fileID: 11400000, guid: 5697646ae7f85fc4f930a2f38296fc66, type: 2}
+  - {fileID: 11400000, guid: a982e37fc76acae4c912b45414aab7c8, type: 2}
+  - {fileID: 11400000, guid: 74cd58f308d254e4ea15316530462014, type: 2}
+  - {fileID: 11400000, guid: 4c8aa77bab45b864ba49e48e59f6a01d, type: 2}
+  - {fileID: 11400000, guid: f6a9053292f0bc4499cebc8932741b61, type: 2}
+  - {fileID: 11400000, guid: eb15daa83ba9735459b9ee911221b663, type: 2}
+  - {fileID: 11400000, guid: ca62acfb4529c4c4e91bedeb68dfd83a, type: 2}
+  - {fileID: 11400000, guid: 16d8dc87b354edd409d8f23faff59b99, type: 2}
+  - {fileID: 11400000, guid: 3467eff0b50cc0d41b95a1ec74da20b8, type: 2}
+  - {fileID: 11400000, guid: 5e36462b68bede640b742d9c62f93a4d, type: 2}
+  - {fileID: 11400000, guid: ab612a6cba386b24abc462e86e9d080a, type: 2}
+  - {fileID: 11400000, guid: cd4019e6c40c2714285d6fc522e0b15f, type: 2}
+  - {fileID: 11400000, guid: 8b27c1be4bc2dcd4daa92cf3915fb5c0, type: 2}
+  - {fileID: 11400000, guid: be03d2fb45311a246b79d3beb952ca9e, type: 2}
+  - {fileID: 11400000, guid: 627acbb1fa155c5458720aa7f044035d, type: 2}
+  - {fileID: 11400000, guid: 7e06c4a8dd9d2a048b008bd182416eba, type: 2}
+  - {fileID: 11400000, guid: d21f5886827d30c41a5245c9999177dd, type: 2}
+  - {fileID: 11400000, guid: 3f3c40d791143fc4ca8dad773cc69061, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 7e220763e16b3fa459c8c179620187ec, type: 2}
+  - {fileID: 11400000, guid: 6f0b70b7ff4201b4badf04f2faed7359, type: 2}
+  - {fileID: 11400000, guid: ea2f1edcf5e8d58478c9a2e5a2e1c852, type: 2}
+  - {fileID: 11400000, guid: d48a59542854be94882322fcb78248a8, type: 2}
+  - {fileID: 11400000, guid: 4a7d427be574f584c828faab047c74f7, type: 2}
+  requiresUnlock: 
+  depthTier: 0
