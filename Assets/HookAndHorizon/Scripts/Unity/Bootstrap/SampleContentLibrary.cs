@@ -97,6 +97,11 @@ namespace HookHorizon.Unity.Bootstrap
             content.Biomes.Add(BiomeData.Create("mountain", "Mountain", false, new Color(0.50f, 0.50f, 0.55f),
                 0.90f, 0.30f, 0.40f, 0.9f, none));
 
+            // Mythical Island — rare land the sea-level model raises inside the ocean (Real Oceans),
+            // ringed by "Mythical Island Water". Placed directly by the ocean layer, never by climate.
+            content.Biomes.Add(BiomeData.Create("mythical_island", "Mythical Island", false, new Color(0.55f, 0.85f, 0.45f),
+                0.55f, 0.70f, 0.70f, 0.05f, none));
+
             // --- Rods (Epic 6) — each upgrade meaningfully changes the fishing feel ---
             // Create(displayName, lureSpeed, luck, reactionWindow, qteForgiveness, price)
             var wooden = RodData.Create("Wooden Rod", 0f, 0f, 0f, 0.10f, 0);

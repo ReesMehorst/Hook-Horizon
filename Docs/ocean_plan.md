@@ -287,3 +287,41 @@ Sea-level model (S1) → depth banding (S2) → world-gen wiring (S3) → island
 tests across the ocean classes. Remaining is Mees-side: open Unity to generate `.meta` for the
 new scripts, re-import content, Play, run the Test Runner. Design lever still open: `seaLevel`
 (0.5 = 50/50 archipelago; raise toward 0.55–0.60 for a "one big ocean + island continents" look).
+
+---
+
+## Story 5 — Mythical Islands (added on request, 2026-09-07, DONE)
+
+Mees wanted islands **almost impossible to find** (~1 per 10-15 oceans, one island each) and a
+special biome for them: a **Mythical Island** (land) ringed by **Mythical Island Water** carrying
+**legendary fish**.
+
+Geometry (Domain, pure):
+- `LandmassModel` island defaults changed to **frequency 0.006 / threshold 0.86** (~1 island per
+  ~10 oceans; 0.90 ≈ none — measured over the real FBM). Islands are single isolated blobs, so an
+  ocean gets at most one.
+- New `IsMythicalRing(x,z)` — a **neighbour-scan** ring (exact tile width; a value-band ring
+  varied 2→13 tiles with the field gradient) of `MythicalRingTiles` (default 2) around each island,
+  with a cheap islandField pre-reject so open ocean pays ~O(1).
+- `OceanLayer.PlacedBiomeAt(x,z)` unifies placement: island → Mythical Island land biome, ring →
+  Mythical Island Water, open ocean → depth biome, land → -1 (climate picker). Both mythical
+  biomes are added to `BiomeIndices` so the land picker excludes them.
+- `WorldGenerator.SampleCell` now calls `PlacedBiomeAt` (islands are land, so this replaced the
+  old ocean-only branch).
+
+Content:
+- `BiomeImportTable` — new **Mythical Island Water** fishing biome (id `mythical_island_water`,
+  DepthTier 0, cyan, MYTHIC/MARINE, low weight). Reachable by any boat (tier 0).
+- `SampleContentLibrary` — new **Mythical Island** land biome (id `mythical_island`, lush green).
+- `fish_content.csv` (both copies) — 6 new **Exclusive** legendary fish for Mythical Island Water:
+  Celestial Leviathan, Dragonheart Koi, Guardian Gar, Ancient Wyrm Eel, Celestial Angelfish,
+  Dragonheart Marlin. Names carry `FishBalanceModel` legendary cues (leviathan / dragonheart /
+  guardian gar / ancient wyrm / celestial), so they auto-derive **Legendary** rarity.
+
+Tests: +4 ring tests (LandmassModelTests) and +5 placement tests (OceanLayerTests), plus an
+`IslandPeakStub` in Fakes. Preview zoom shared in chat (green island + 2-tile cyan halo).
+
+**Mees-side:** run **Tools ▸ Hook & Horizon ▸ Import Fish Content** (rebuilds biomes/fish incl. the
+mythical ones), reassign `GameContent.asset` to GameBootstrap, generate `.meta` for the new scripts,
+Play, run the Test Runner. Islands are rare by design — to see one fast for testing, temporarily
+lower `islandThreshold` (e.g. 0.80) in WorldMap, then set it back to 0.86.

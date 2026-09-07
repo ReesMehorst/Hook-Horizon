@@ -135,5 +135,38 @@ namespace HookHorizon.Tests
             Assert.IsFalse(m.IsIsland(0f, 0f));
             Assert.IsTrue(m.IsOcean(0f, 0f));
         }
+
+        // ---- Mythical Island Water ring (neighbour scan, exact tile width) --------
+
+        private static LandmassModel IslandModel()
+            => new LandmassModel(new FixedNoiseStub(0.30f), seaLevel: 0.5f,
+                islands: new IslandPeakStub(), islandThreshold: 0.86f, mythicalRingTiles: 2);
+
+        [Test]
+        public void IslandTile_IsIsland_NotRing()
+        {
+            var m = IslandModel();
+            Assert.IsTrue(m.IsIsland(0f, 0f));
+            Assert.IsFalse(m.IsMythicalRing(0f, 0f));
+        }
+
+        [Test]
+        public void OceanWithinRingTiles_OfIsland_IsRing()
+        {
+            var m = IslandModel();
+            Assert.IsTrue(m.IsMythicalRing(1f, 0f), "1 tile from the island");
+            Assert.IsTrue(m.IsMythicalRing(2f, 0f), "2 tiles from the island");
+        }
+
+        [Test]
+        public void OceanBeyondRingTiles_IsNotRing()
+            => Assert.IsFalse(IslandModel().IsMythicalRing(3f, 0f), "3 tiles out is beyond the 2-tile ring");
+
+        [Test]
+        public void Ring_RequiresOcean_NotLand()
+        {
+            var m = new LandmassModel(new FixedNoiseStub(0.80f), 0.5f, new IslandPeakStub(), 0.86f, 2);
+            Assert.IsFalse(m.IsMythicalRing(1f, 0f));
+        }
     }
 }

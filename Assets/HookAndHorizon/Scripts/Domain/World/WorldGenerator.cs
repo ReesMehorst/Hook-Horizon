@@ -57,16 +57,19 @@ namespace HookHorizon.Domain.World
         /// <summary>Full biome + elevation for a tile at world (x, z): ocean first, then land climate + rivers.</summary>
         public WorldCell SampleCell(float x, float z)
         {
-            // Sea-level model decides land vs ocean before anything else.
-            if (_ocean != null && _ocean.IsOcean(x, z))
+            // Sea-level model decides the tile before the climate picker: Mythical Islands, the
+            // mythical water ring, and the ocean depth stack are all placed here.
+            if (_ocean != null)
             {
-                int oceanBiome = _ocean.BiomeIndexAt(x, z);
-                if (oceanBiome >= 0)
+                int placed = _ocean.PlacedBiomeAt(x, z);
+                if (placed >= 0)
                 {
-                    float depth = _ocean.Depth01(x, z);
-                    return new WorldCell(oceanBiome, (1f - depth) * 0.2f); // low elevation, deeper = lower
+                    float elevation = _ocean.IsOcean(x, z)
+                        ? (1f - _ocean.Depth01(x, z)) * 0.2f // ocean / ring: low, deeper = lower
+                        : 0.5f;                              // island land
+                    return new WorldCell(placed, elevation);
                 }
-                // Unmapped band -> fall through to the climate picker as a safety net.
+                // -1 = normal land -> fall through to the climate picker below.
             }
 
             var climate = new float[_fields.Length];

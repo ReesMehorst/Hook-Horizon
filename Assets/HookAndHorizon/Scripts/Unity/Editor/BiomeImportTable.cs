@@ -82,6 +82,9 @@ namespace HookHorizon.Unity.EditorTools
             new BiomeDef("Deep Sea", "deep_sea", "Deep Sea", 0.09f, 0.35f, 1.00f, 0.45f, 0.6f, false, new Color(0.05f,0.14f,0.38f), new[]{"DEEP"}, depthTier: 2),
             new BiomeDef("Abyss", "abyss", "Abyss", 0.05f, 0.30f, 1.00f, 0.55f, 0.4f, false, new Color(0.04f,0.08f,0.22f), new[]{"DEEP"}, depthTier: 3),
             new BiomeDef("Trench", "trench", "Trench", 0.02f, 0.28f, 1.00f, 0.60f, 0.25f, false, new Color(0.02f,0.03f,0.12f), new[]{"DEEP"}, depthTier: 3),
+
+            // ---- Mythical Island Water: the rare halo around a Mythical Island (legendary fish) ----
+            new BiomeDef("Mythical Island Water", "mythical_island_water", "Mythical Island Water", 0.30f, 0.75f, 1.00f, 0.95f, 0.3f, false, new Color(0.45f,0.90f,0.88f), new[]{"MYTHIC","MARINE"}, depthTier: 0),
         };
     }
 }

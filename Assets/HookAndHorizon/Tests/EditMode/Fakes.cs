@@ -14,6 +14,19 @@ namespace HookHorizon.Tests
         public float Sample(float x, float z) => _v;
     }
 
+    /// <summary>An island field with a single island tile at the origin (value 0.90) and 0.84
+    /// everywhere else — just below a 0.86 threshold, i.e. inside the ring's cheap-reject window.
+    /// Lets tests exercise IsIsland / IsMythicalRing deterministically.</summary>
+    internal sealed class IslandPeakStub : INoise2D
+    {
+        public float Sample(float x, float z)
+        {
+            int d = System.Math.Max(System.Math.Abs((int)System.Math.Round(x)),
+                                    System.Math.Abs((int)System.Math.Round(z)));
+            return d == 0 ? 0.90f : 0.84f;
+        }
+    }
+
     /// <summary>Deterministic RNG that always returns the same value — makes rolls predictable.</summary>
     internal sealed class ConstantRng : IRng
     {

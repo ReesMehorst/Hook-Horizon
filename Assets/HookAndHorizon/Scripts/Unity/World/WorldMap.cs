@@ -70,13 +70,16 @@ namespace HookHorizon.Unity.World
         [SerializeField, Min(1)] private int continentalnessOctaves = 4;
         [Tooltip("Domain-warp strength (tiles) for a wiggly, organic coastline.")]
         [SerializeField] private float coastlineWarpStrength = 25f;
-        [Header("Islands (small rare land in open water)")]
+        [Header("Mythical Islands (very rare — legendary-fish halo)")]
         [SerializeField] private bool enableIslands = true;
         [Tooltip("Higher frequency = smaller, more scattered islands. Wavelength ≈ 1/frequency tiles.")]
-        [SerializeField] private float islandFrequency = 0.02f;
-        [SerializeField, Min(1)] private int islandOctaves = 3;
-        [Tooltip("Island field above this raises an ocean tile to land. Higher = rarer islands.")]
-        [SerializeField, Range(0.5f, 0.95f)] private float islandThreshold = 0.72f;
+        [SerializeField] private float islandFrequency = 0.006f;
+        [SerializeField, Min(1)] private int islandOctaves = 2;
+        [Tooltip("Island field above this raises an ocean tile to a Mythical Island. Higher = rarer " +
+                 "(~0.86 ≈ 1 per 10 oceans; 0.90 ≈ practically none).")]
+        [SerializeField, Range(0.7f, 0.95f)] private float islandThreshold = 0.86f;
+        [Tooltip("Tile width of the Mythical Island Water ring (legendary fish) around each island.")]
+        [SerializeField, Range(0, 6)] private int mythicalRingTiles = 2;
         [Header("Ocean depth bands (on depth01; percentile-tuned defaults)")]
         [SerializeField, Range(0f, 1f)] private float oceanDeepStart = 0.15f;
         [SerializeField, Range(0f, 1f)] private float oceanDeepSeaStart = 0.23f;
@@ -204,9 +207,11 @@ namespace HookHorizon.Unity.World
             INoise2D islandField = enableIslands
                 ? new FractalNoise(new PerlinNoise(seed + 14), islandFrequency, islandOctaves)
                 : null;
-            var landmass = new LandmassModel(continentalness, seaLevel, islandField, islandThreshold);
+            var landmass = new LandmassModel(continentalness, seaLevel, islandField, islandThreshold, mythicalRingTiles);
             var banding = new OceanBanding(oceanDeepStart, oceanDeepSeaStart, oceanAbyssStart, oceanTrenchStart, oceanColdMax, oceanReefMin);
-            return new OceanLayer(landmass, banding, temperature, indexByKind);
+            int mythicalIsland = biomes.FindIndex(b => b.Id == "mythical_island");
+            int mythicalWater = biomes.FindIndex(b => b.Id == "mythical_island_water");
+            return new OceanLayer(landmass, banding, temperature, indexByKind, mythicalIsland, mythicalWater);
         }
 
         private void Awake()

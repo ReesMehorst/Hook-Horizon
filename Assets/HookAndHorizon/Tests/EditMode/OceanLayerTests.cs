@@ -86,5 +86,37 @@ namespace HookHorizon.Tests
                 new INoise2D[] { new FixedNoiseStub(0.5f), new FixedNoiseStub(0.5f) }, Biomes());
             Assert.AreEqual(3, gen.SelectBiome(new[] { 0.2f, 0.8f }));
         }
+
+        // ---- Mythical Islands + ring placement ------------------------------------
+
+        private static OceanLayer MythicOcean()
+            => new OceanLayer(
+                new LandmassModel(new FixedNoiseStub(0.30f), 0.5f, new IslandPeakStub(), 0.86f, 2),
+                new OceanBanding(), new FixedNoiseStub(0.5f),
+                IndexByKind, mythicalIslandIndex: 7, mythicalWaterIndex: 8);
+
+        [Test]
+        public void IslandTile_Places_MythicalIslandBiome()
+            => Assert.AreEqual(7, MythicOcean().PlacedBiomeAt(0f, 0f));
+
+        [Test]
+        public void RingTile_Places_MythicalWaterBiome()
+            => Assert.AreEqual(8, MythicOcean().PlacedBiomeAt(1f, 0f));
+
+        [Test]
+        public void OpenOceanTile_Places_ADepthBiome()
+            => Assert.Contains(MythicOcean().PlacedBiomeAt(5f, 0f), new[] { 3, 4 });
+
+        [Test]
+        public void LandTile_Places_MinusOne()
+        {
+            var land = new OceanLayer(new LandmassModel(new FixedNoiseStub(0.80f), 0.5f),
+                new OceanBanding(), new FixedNoiseStub(0.5f), IndexByKind);
+            Assert.AreEqual(-1, land.PlacedBiomeAt(0f, 0f));
+        }
+
+        [Test]
+        public void BiomeIndices_IncludeMythicalBiomes()
+            => CollectionAssert.IsSupersetOf(MythicOcean().BiomeIndices.ToArray(), new[] { 7, 8 });
     }
 }
