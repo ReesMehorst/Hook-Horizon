@@ -61,6 +61,24 @@ namespace HookHorizon.Unity.World
         [SerializeField] private float riverWarpFrequency = 0.05f;
         [SerializeField, Range(0f, 1f)] private float riverMaxElevation = 0.72f;
 
+        [Header("Oceans (sea-level model — one contiguous sea, deepening offshore)")]
+        [SerializeField] private bool enableOceans = true;
+        [Tooltip("Continentalness below this is ocean, above is land. 0.5 = ~50% ocean.")]
+        [SerializeField, Range(0.1f, 0.9f)] private float seaLevel = 0.5f;
+        [Tooltip("Lower = larger continents/oceans. Region wavelength in tiles ≈ 1/frequency.")]
+        [SerializeField] private float continentalnessFrequency = 0.002f;
+        [SerializeField, Min(1)] private int continentalnessOctaves = 4;
+        [Tooltip("Domain-warp strength (tiles) for a wiggly, organic coastline.")]
+        [SerializeField] private float coastlineWarpStrength = 25f;
+        [Header("Ocean depth bands (on depth01; percentile-tuned defaults)")]
+        [SerializeField, Range(0f, 1f)] private float oceanDeepStart = 0.15f;
+        [SerializeField, Range(0f, 1f)] private float oceanDeepSeaStart = 0.23f;
+        [SerializeField, Range(0f, 1f)] private float oceanAbyssStart = 0.30f;
+        [SerializeField, Range(0f, 1f)] private float oceanTrenchStart = 0.39f;
+        [Header("Ocean surface split (by temperature)")]
+        [SerializeField, Range(0f, 1f)] private float oceanColdMax = 0.43f;
+        [SerializeField, Range(0f, 1f)] private float oceanReefMin = 0.62f;
+
         [SerializeField] private List<BiomeData> biomes = new List<BiomeData>();
 
         private WorldGenerator _generator;
@@ -84,15 +102,16 @@ namespace HookHorizon.Unity.World
             if (biomeSet != null) biomes = biomeSet.ToList();
 
             var signatures = biomes.Select(b => b.ToSignature()).ToList();
+            var temperatureField = new FractalNoise(new PerlinNoise(seed + 1), temperatureFrequency, octaves);
             var fields = new INoise2D[]
             {
                 new FractalNoise(new PerlinNoise(seed),     elevationFrequency, octaves),
-                new FractalNoise(new PerlinNoise(seed + 1), temperatureFrequency, octaves),
+                temperatureField,
                 new FractalNoise(new PerlinNoise(seed + 2), moistureFrequency, octaves),
                 new FractalNoise(new PerlinNoise(seed + 7), varianceFrequency, octaves),
             };
             var weights = new[] { elevationWeight, temperatureWeight, moistureWeight, varianceWeight };
-            _generator = new WorldGenerator(fields, signatures, weights, 0, BuildRiverLayer());
+            _generator = new WorldGenerator(fields, signatures, weights, 0, BuildRiverLayer(), BuildOceanLayer(temperatureField));
 
             // A smooth, low-octave field for terrain height — deliberately NOT the climate
             // elevation (which is detailed and would spike single tiles when terraced).
@@ -149,6 +168,35 @@ namespace HookHorizon.Unity.World
             var mask = new CompositeRiverMask(creekMask, riverMask);
             bool[] isWater = biomes.Select(b => b.IsWater).ToArray();
             return new RiverLayer(mask, riverIndex, isWater, riverMaxElevation);
+        }
+
+        /// <summary>Build the sea-level model: a low-frequency, domain-warped continentalness
+        /// field splits land vs ocean (~50% at seaLevel 0.5), and ocean tiles pick from the
+        /// authored ocean stack by depth (and temperature for the surface). Returns null when
+        /// oceans are disabled or the ocean biomes are absent (e.g. the sample library).</summary>
+        private OceanLayer BuildOceanLayer(INoise2D temperature)
+        {
+            if (!enableOceans) return null;
+
+            string[] oceanIds = { "coral_reef", "warm_ocean", "cold_sea", "deep_ocean_layer", "deep_sea", "abyss", "trench" };
+            var indexByKind = new int[oceanIds.Length];
+            bool anySurface = false;
+            for (int k = 0; k < oceanIds.Length; k++)
+            {
+                indexByKind[k] = biomes.FindIndex(b => b.Id == oceanIds[k]);
+                if (k <= 2 && indexByKind[k] >= 0) anySurface = true; // reef/warm/cold present
+            }
+            if (!anySurface) return null;
+
+            var continentalness = new DomainWarpNoise(
+                new FractalNoise(new PerlinNoise(seed + 11), continentalnessFrequency, continentalnessOctaves),
+                new FractalNoise(new PerlinNoise(seed + 12), continentalnessFrequency * 4f, 2),
+                new FractalNoise(new PerlinNoise(seed + 13), continentalnessFrequency * 4f, 2),
+                coastlineWarpStrength);
+
+            var landmass = new LandmassModel(continentalness, seaLevel);
+            var banding = new OceanBanding(oceanDeepStart, oceanDeepSeaStart, oceanAbyssStart, oceanTrenchStart, oceanColdMax, oceanReefMin);
+            return new OceanLayer(landmass, banding, temperature, indexByKind);
         }
 
         private void Awake()

@@ -224,3 +224,40 @@ more presence.
 **Design note (Story 3 watch-out):** the ocean's *deep-area rarity* is inherent to the single
 continentalness field. If the deep stack feels too sparse in-game, the lever is the depth
 thresholds here (lower them for more deep area) — not the sea level.
+
+---
+
+## Story 3 — build notes (2026-09-07, DONE)
+
+Implemented:
+- `Domain/World/OceanLayer.cs` — pure. Bundles `LandmassModel` + `OceanBanding` + a temperature
+  field + a kind→biome-index map. `IsOcean`, `BiomeIndexAt`, `Depth01`, `BiomeIndices`.
+- `Domain/World/WorldGenerator.cs` — `SampleCell` now consults an optional `OceanLayer` first:
+  ocean tiles take their biome from the banding (climate + rivers skipped, low placeholder
+  elevation); land tiles use the climate picker with the ocean-stack biomes **excluded**
+  (`SelectBiome` skips them) so ocean biomes never appear on land. Backward-compatible: no
+  ocean layer ⇒ old behaviour.
+- `Unity/World/WorldMap.cs` — new inspector block (enableOceans, seaLevel, continentalness
+  frequency/octaves, coastline warp, the four depth-band starts, cold/reef temp splits);
+  `BuildOceanLayer()` builds a domain-warped continentalness field (seed+11/12/13), maps the
+  seven ocean ids to indices, and passes the layer to the generator. Reuses the existing
+  temperature field for the surface split. Returns null if oceans disabled or ocean biomes absent.
+- `Tests/EditMode/OceanLayerTests.cs` — 9 tests (ocean/land split, shallow→surface vs
+  deep→deep biome, land picker excludes ocean biomes even at their exact climate, backward-compat).
+
+**Full-pipeline preview (Python, real params — freq 0.002, warp 25, seaLevel 0.5, tuned bands):**
+49.6% ocean, contiguous seas with the depth gradient reading correctly (shallow → deep → trench
+cores offshore). See the rendered preview shared in chat.
+
+**Design finding — the 50/50 look.** At sea level 0.5 the world is a 50/50 land/water *maze*
+(archipelago + inland seas), not literally "one ocean + one mainland": near 50% both phases
+percolate. Levers, all in the WorldMap inspector now:
+- **More ocean, land as islands/continents** (closer to the "one big ocean" vision): raise
+  `seaLevel` (e.g. 0.55–0.60 ≈ 60–70% ocean) so water is the connected background.
+- **Bigger continents/oceans** (fewer, larger): lower `continentalnessFrequency`.
+- **Coastline shape:** `coastlineWarpStrength`.
+Left at 0.5 (the stated ~50%) pending Mees's call on the look.
+
+**You must do:** open Unity once → generate `.meta` for the 3 new scripts → commit them. Then
+re-import content / press Play; the top-down map should show large contiguous seas instead of
+scattered pockets. Run the Test Runner (EditMode).
