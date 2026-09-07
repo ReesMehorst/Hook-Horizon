@@ -64,10 +64,10 @@ namespace HookHorizon.Domain.World
                 int placed = _ocean.PlacedBiomeAt(x, z);
                 if (placed >= 0)
                 {
-                    float elevation = _ocean.IsOcean(x, z)
+                    float placedElevation = _ocean.IsOcean(x, z)
                         ? (1f - _ocean.Depth01(x, z)) * 0.2f // ocean / ring: low, deeper = lower
                         : 0.5f;                              // island land
-                    return new WorldCell(placed, elevation);
+                    return new WorldCell(placed, placedElevation);
                 }
                 // -1 = normal land -> fall through to the climate picker below.
             }
