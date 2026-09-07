@@ -97,5 +97,43 @@ namespace HookHorizon.Tests
             Assert.That(fraction, Is.InRange(0.42f, 0.58f),
                 $"expected ~50% ocean at sea level 0.5, got {fraction:P1}");
         }
+
+        // ---- Islands (small rare land raised inside the ocean) --------------------
+
+        private static LandmassModel WithIsland(float continentalness, float islandValue)
+            => new LandmassModel(new FixedNoiseStub(continentalness), seaLevel: 0.5f,
+                islands: new FixedNoiseStub(islandValue), islandThreshold: 0.72f);
+
+        [Test]
+        public void OceanTile_AboveIslandThreshold_BecomesLand()
+        {
+            var m = WithIsland(continentalness: 0.30f, islandValue: 0.90f); // ocean + island pokes up
+            Assert.IsTrue(m.IsIsland(0f, 0f));
+            Assert.IsFalse(m.IsOcean(0f, 0f), "an island tile is land, not ocean");
+        }
+
+        [Test]
+        public void OceanTile_BelowIslandThreshold_StaysOcean()
+        {
+            var m = WithIsland(continentalness: 0.30f, islandValue: 0.50f);
+            Assert.IsFalse(m.IsIsland(0f, 0f));
+            Assert.IsTrue(m.IsOcean(0f, 0f));
+        }
+
+        [Test]
+        public void HighIslandValue_OnLand_IsNotAnIsland()
+        {
+            var m = WithIsland(continentalness: 0.80f, islandValue: 0.90f); // land tile
+            Assert.IsFalse(m.IsIsland(0f, 0f), "islands only rise in the ocean domain");
+            Assert.IsFalse(m.IsOcean(0f, 0f));
+        }
+
+        [Test]
+        public void WithoutIslandField_NeverIsland()
+        {
+            var m = new LandmassModel(new FixedNoiseStub(0.30f), 0.5f); // no island field
+            Assert.IsFalse(m.IsIsland(0f, 0f));
+            Assert.IsTrue(m.IsOcean(0f, 0f));
+        }
     }
 }

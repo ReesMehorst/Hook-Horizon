@@ -261,3 +261,29 @@ Left at 0.5 (the stated ~50%) pending Mees's call on the look.
 **You must do:** open Unity once → generate `.meta` for the 3 new scripts → commit them. Then
 re-import content / press Play; the top-down map should show large contiguous seas instead of
 scattered pockets. Run the Test Runner (EditMode).
+
+---
+
+## Story 4 — build notes (2026-09-07, DONE)  →  EPIC COMPLETE
+
+Implemented:
+- `Domain/World/LandmassModel.cs` — optional island field + `IslandThreshold`; new `IsIsland(x,z)`
+  (true only inside the ocean domain when the island field clears the threshold); `IsOcean` now
+  returns false on island tiles, so an island reads as land and the climate picker gives it an
+  ordinary land biome. Backward-compatible: no island field ⇒ never an island (Stories 1–3 unchanged).
+- `Unity/World/WorldMap.cs` — island inspector block (enableIslands, islandFrequency 0.02,
+  islandOctaves 3, islandThreshold 0.72); `BuildOceanLayer` builds the island field (seed+14)
+  and passes it to `LandmassModel`.
+- `Tests/EditMode/LandmassModelTests.cs` — +4 island tests (ocean tile above threshold → land;
+  below → ocean; high island value on land → not an island; no field → never island).
+
+**Rarity (Python over real noise, then full pipeline):** island field freq 0.02 / threshold 0.72
+→ ~1.3% of tiles clear it, gated to ocean ≈ **0.6% of the world** = small, scattered islands in
+open water. Preview shared in chat (light-green specks). Tune with `islandThreshold` (higher =
+rarer) and `islandFrequency` (higher = smaller).
+
+### Real Oceans — epic status: **ALL 4 STORIES DONE**
+Sea-level model (S1) → depth banding (S2) → world-gen wiring (S3) → islands (S4). 35 EditMode
+tests across the ocean classes. Remaining is Mees-side: open Unity to generate `.meta` for the
+new scripts, re-import content, Play, run the Test Runner. Design lever still open: `seaLevel`
+(0.5 = 50/50 archipelago; raise toward 0.55–0.60 for a "one big ocean + island continents" look).
