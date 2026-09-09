@@ -1,11 +1,35 @@
 # Hook & Horizon — Handoff
 
-_Last updated: 2026-09-06. Treat this file as the source of truth for project state. It
+_Last updated: 2026-09-09. Treat this file as the source of truth for project state. It
 supersedes the earlier handoff, which listed the Fish Log as "next" — the Fish Log, save/load,
 the quest/progression slice, a fish-sprite pipeline (with a first pass of AI art), and the
 **Boats / deep-water access** epic have all since shipped._
 
 ---
+
+## RECENTLY SHIPPED — Real Oceans + Mythical Islands (2026-09-09)
+
+The world now generates as **~50% one contiguous ocean, ~50% mainland**, deepening offshore through
+the authored depth stack, with **rare Mythical Islands**. Five-story epic; full design + scrum notes
+in `My project/Docs/ocean_plan.md`, system map in project memory `world_generation.md`. On GitHub
+(branch `trunk`), 44 EditMode tests.
+
+- **Sea-level model (Domain, pure).** `LandmassModel` — a low-frequency, domain-warped *continentalness*
+  field + `SeaLevel` (0.5 = ~50% ocean; the split is frequency-independent, only continent SIZE
+  changes) decides land vs ocean. `IsOcean`, `OceanDepth01` (0 shore → 1 deepest).
+- **Depth banding.** `OceanBanding` maps depth (percentile-tuned thresholds — the field bunches
+  shallow) + temperature to the 7 ocean biomes, feeding `BiomeData.DepthTier` so the boat depth-gate
+  matches real geography.
+- **Wiring.** `OceanLayer` + `WorldGenerator.SampleCell`: ocean tiles pick from banding, land tiles
+  use the climate picker with the ocean-stack biomes excluded. `WorldMap` builds the fields
+  (inspector-tunable: seaLevel, continentalness frequency, coastline warp, band starts, surface split).
+- **Mythical Islands.** Very rare (`islandThreshold` 0.86 ≈ 1 per ~10 oceans). Each is a **Mythical
+  Island** land biome ringed by a 2-tile **Mythical Island Water** biome (neighbour-scan ring) with
+  **legendary fish** (6 new cue-named exclusives → auto-Legendary).
+- **Look/tuning.** seaLevel 0.5 = 50/50 archipelago; raise toward 0.55–0.60 for "one big ocean +
+  island continents". All in the WorldMap inspector.
+- **Owed (Unity-side):** open Unity once to generate `.meta` for the 5 new scripts + commit; run
+  **Tools ▸ Import Fish Content** and re-assign `GameContent.asset`; run the Test Runner.
 
 ## RECENTLY SHIPPED — Boats / deep-water access (2026-09-06)
 
@@ -46,50 +70,35 @@ the Skiff (2) Deep Sea, the Trawler (3) the Abyss/Trench.
 
 ---
 
-## NEXT FEATURE - Real oceans (sea-level world model)
+## NEXT FEATURE - Weather & Time-of-Day
 
-**The problem.** **Oceans are not generated.** World gen picks each tile's biome by nearest 4D
-climate (`WorldGenerator` + `WorldMap`) with NO sea-level or landmass concept — "water" is just any
-biome with a low signature elevation, so the ocean/deep stack appears as small scattered pockets
-interleaved with land instead of one big connected sea. It's also why the deep-ocean biomes (and the
-boats / depth-tier content) are hard to reach: there is no contiguous ocean with a real depth gradient.
+**The idea.** A **day/night cycle** and **changing weather** (Clear/Cloudy/Rain/Storm/Fog) that shift
+**bite rate, which species bite, and the mood** (lighting/HUD/ambience). "Come back at night, in the
+rain" for the legendaries.
 
-**What Mees wants.** A world that is **~50% ocean, ~50% mainland**. The mainland carries the land
-biomes plus rivers and lakes (existing systems). The ocean is one large contiguous body that can
-contain **islands** — small land patches out in the water (see the reference: tiny remote islands).
+**The clean fit.** Fishing already composes bonuses through `IRodStats` + `CombinedRodStats` (boats
+stack on rods this way via `PlayerFishingStats`). **Weather + time become another `IRodStats` source
+in that same stack** — positive or negative — so there is no new fishing math and the state machine is
+untouched. Clock/weather live pure in `Domain`, surfaced to Unity as events (lighting/HUD subscribe).
 
-**The one rule (how to build it).**
-- *Add a sea-level model ABOVE the climate picker (Domain, pure + tested).* A low-frequency
-  continentalness/elevation field with a sea-level threshold tuned so ~50% of tiles fall below it =
-  ocean domain, the rest = land domain. This is a landmass mask, separate from per-biome climate match.
-- *Ocean domain -> pick by DEPTH.* Distance below sea level (or distance-to-shore) selects
-  shore/surface (Coral/Warm/Cold) -> Deep Ocean -> Deep Sea -> Abyss -> Trench, and feeds the already
-  authored `BiomeData.DepthTier` so the boat depth-gate matches real geography.
-- *Islands.* A higher-frequency bump that pokes above sea level inside the ocean = small, rare land
-  patches.
-- *Land domain.* Keep the existing 4D-climate land-biome selection; rivers already work; lakes =
-  local depressions inside the land domain.
-- *Streaming.* `WorldRenderer` must stream ocean far enough offshore to sail into (boats watch-out).
+**Direction:** `Domain/World/GameClock` (time-of-day + Dawn/Day/Dusk/Night, events) ·
+`Domain/World/WeatherModel` (deterministic-per-seed weather states, events) ·
+`Domain/Fishing/ConditionModifiers : IRodStats` (weather+phase → tunable bonus table, stacked) ·
+Unity `ConditionsRunner` (ticks them; day/night light + weather tint + HUD clock/icon) · persist
+clock+weather in `SaveData` · (stretch) per-species night/rain condition tags.
 
-**Definition of Ready:** climate world gen, rivers, chunk streaming, boats + authored `DepthTier` all
-exist (done). **Definition of Done:** a generated world is roughly half one contiguous ocean and half
-mainland; the ocean deepens with distance from shore through the depth stack; islands appear in open
-water; rivers/lakes still generate on land; the sea-level split + depth banding have EditMode tests.
-**Watch-outs:** keep it pure/testable in Domain (`SeaLevel`/`LandmassModel`); don't break the existing
-per-tile climate picker for land; verify the ~50% split over real noise (Python, like the river work).
-Run `scrum-story-breakdown` to format it. Full context in project memory `world_generation.md`.
+**Full design + five-story scrum breakdown:** `My project/Docs/weather_time_plan.md` (≈23 pts; first
+shippable slice = stories 1–4, 18 pts).
 
----
+## LATER - Crafting, quests-as-data
 
-## LATER - Weather / time-of-day, crafting
-
-Conditions that shift bite rate / species / mood (pure Domain clock/weather model surfaced as events;
-Unity adapts lighting/HUD/fishing modifiers via `IRodStats`-style hooks). Crafting later.
+Crafting (rods / gear / bait from caught fish + materials) — needs a materials/inventory layer first.
+Turn the hard-coded quests into ScriptableObjects and add a "Hunt the Mythical Island" questline using
+the new legendary content. (Weather / time-of-day moved up to NEXT FEATURE.)
 
 **Cleanup owed:** wire the boat catalogue into `GameContent` so the dock sells the `Content/Boats`
-assets instead of runtime `BoatData.Create(...)`; remove `Unity/Diagnostics/DebugCheats` ([G] +1000g).
-
----
+assets instead of runtime `BoatData.Create(...)`; remove `Unity/Diagnostics/DebugCheats` ([G] +1000g);
+open Unity once to generate `.meta` for the 5 new ocean scripts and commit them.
 
 ## 1. What Hook & Horizon is
 
